@@ -265,13 +265,12 @@ def s_donut(s, i, n):
 
 
 def s_cta(s, i, n):
-    lines = "".join(f'<div class="pt"><i></i><div>{rich(t)}</div></div>' for t in s.get("points", []))
     inner = (f'<div class="label">{rich(s.get("label", "Building Bridges · Creating Access"))}</div>'
              f'<div class="h1" style="font-size:{s.get("tsize", 112)}px">{rich(s["title"])}</div>'
              + (f'<div class="sub">{rich(s["sub"])}</div>' if s.get("sub") else "")
-             + (f'<div class="pts" style="margin-top:0">{lines}</div>' if lines else "")
-             + f'<div style="display:flex;gap:22px;flex-wrap:wrap;margin-top:14px"><div class="pill">FOLLOW US {RARROW}</div>'
-               f'<div class="pill o">DM US TO WORK WITH US</div></div>')
+             + f'<div style="display:flex;flex-direction:column;align-items:flex-start;gap:22px;margin-top:18px">'
+               f'<div class="pill" style="font-size:26px;padding:30px 48px">FOLLOW US FOR MORE INFO {RARROW}</div>'
+               f'<div class="pill o" style="font-size:26px;padding:28px 48px">LINK IN BIO</div></div>')
     return frame(inner, i, n, s.get("src"))
 
 
