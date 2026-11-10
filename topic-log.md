@@ -8,3 +8,4 @@
 | 2026-11-08 | Sun 2026-11-08 11:00 | Brand deals | Carousel | How a China brand deal flows | 17935872252423087 |
 | 2026-11-08 | Sun 2026-11-08 20:00 | Untapped market | Carousel | 1 billion short-video users | 18399785113160424 |
 | 2026-11-09 | Mon 2026-11-09 11:00 | Jobs | Carousel | Jobs in China paying up to $5,000 a month | 18474464026188900 |
+| 2026-11-09 | Mon 2026-11-09 20:00 | Best cities | Carousel | Guangzhou vs Shenzhen | 17958578145258911 |
