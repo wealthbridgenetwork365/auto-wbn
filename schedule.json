@@ -1,495 +1,496 @@
 {
- "account": "17841476264781043",
- "timezone": "America/New_York",
- "approved": "2026-11-05 by user",
- "posts": [
-  {
-   "slot_et": "2026-11-06T11:00",
-   "id": "01-five-apps",
-   "title": "China's apps by the numbers",
-   "pillar": "Untapped market",
-   "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
-   "image_urls": [
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/01-five-apps/slide-01.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/01-five-apps/slide-02.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/01-five-apps/slide-03.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/01-five-apps/slide-04.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/01-five-apps/slide-05.jpg"
-   ],
-   "status": "posted",
-   "media_id": "17989694942882650",
-   "posted_at": "2026-11-06T10:44:28-05:00"
-  },
-  {
-   "slot_et": "2026-11-06T20:00",
-   "id": "02-240-hours",
-   "title": "240-hour visa-free transit",
-   "pillar": "Travel",
-   "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
-   "image_urls": [
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/02-240-hours/slide-01.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/02-240-hours/slide-02.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/02-240-hours/slide-03.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/02-240-hours/slide-04.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/02-240-hours/slide-05.jpg"
-   ],
-   "status": "posted",
-   "media_id": "18033997421681677",
-   "posted_at": "2026-11-06T19:44:18-05:00"
-  },
-  {
-   "slot_et": "2026-11-08T11:00",
-   "id": "03-deal-flow",
-   "title": "How a China brand deal flows",
-   "pillar": "Brand deals",
-   "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
-   "image_urls": [
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/03-deal-flow/slide-01.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/03-deal-flow/slide-02.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/03-deal-flow/slide-03.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/03-deal-flow/slide-04.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/03-deal-flow/slide-05.jpg"
-   ],
-   "status": "posted",
-   "media_id": "17935872252423087",
-   "posted_at": "2026-11-08T10:44:06-05:00"
-  },
-  {
-   "slot_et": "2026-11-08T20:00",
-   "id": "05-short-video",
-   "title": "1 billion short-video users",
-   "pillar": "Untapped market",
-   "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
-   "image_urls": [
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/05-short-video/slide-01.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/05-short-video/slide-02.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/05-short-video/slide-03.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/05-short-video/slide-04.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/05-short-video/slide-05.jpg"
-   ],
-   "status": "posted",
-   "media_id": "18399785113160424",
-   "posted_at": "2026-11-08T19:44:04-05:00"
-  },
-  {
-   "slot_et": "2026-11-09T11:00",
-   "id": "04-jobs-5k",
-   "title": "Jobs in China paying up to $5,000 a month",
-   "pillar": "Jobs",
-   "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
-   "image_urls": [
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/04-jobs-5k/slide-01.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/04-jobs-5k/slide-02.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/04-jobs-5k/slide-03.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/04-jobs-5k/slide-04.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/04-jobs-5k/slide-05.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/04-jobs-5k/slide-06.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/04-jobs-5k/slide-07.jpg"
-   ],
-   "status": "posted",
-   "media_id": "18474464026188900",
-   "posted_at": "2026-11-09T10:44:34-05:00"
-  },
-  {
-   "slot_et": "2026-11-09T20:00",
-   "id": "06-gz-vs-sz",
-   "title": "Guangzhou vs Shenzhen",
-   "pillar": "Best cities",
-   "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
-   "image_urls": [
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/06-gz-vs-sz/slide-01.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/06-gz-vs-sz/slide-02.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/06-gz-vs-sz/slide-03.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/06-gz-vs-sz/slide-04.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/06-gz-vs-sz/slide-05.jpg"
-   ],
-   "status": "posted",
-   "media_id": "17958578145258911",
-   "posted_at": "2026-11-09T19:44:07-05:00"
-  },
-  {
-   "slot_et": "2026-11-11T11:00",
-   "id": "07-retail",
-   "title": "China's $7 trillion retail market",
-   "pillar": "Untapped market",
-   "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
-   "image_urls": [
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/07-retail/slide-01.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/07-retail/slide-02.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/07-retail/slide-03.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/07-retail/slide-04.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/07-retail/slide-05.jpg"
-   ],
-   "status": "scheduled",
-   "media_id": null
-  },
-  {
-   "slot_et": "2026-11-11T20:00",
-   "id": "08-alipay",
-   "title": "Paying in China with your own card",
-   "pillar": "Travel",
-   "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
-   "image_urls": [
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/08-alipay/slide-01.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/08-alipay/slide-02.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/08-alipay/slide-03.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/08-alipay/slide-04.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/08-alipay/slide-05.jpg"
-   ],
-   "status": "scheduled",
-   "media_id": null
-  },
-  {
-   "slot_et": "2026-11-13T11:00",
-   "id": "09-csc",
-   "title": "Get paid to study in China",
-   "pillar": "Scholarships",
-   "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
-   "image_urls": [
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/09-csc/slide-01.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/09-csc/slide-02.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/09-csc/slide-03.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/09-csc/slide-04.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/09-csc/slide-05.jpg"
-   ],
-   "status": "scheduled",
-   "media_id": null
-  },
-  {
-   "slot_et": "2026-11-13T20:00",
-   "id": "10-ugc-vs-influencer",
-   "title": "UGC creator vs influencer",
-   "pillar": "Brand deals",
-   "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
-   "image_urls": [
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/10-ugc-vs-influencer/slide-01.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/10-ugc-vs-influencer/slide-02.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/10-ugc-vs-influencer/slide-03.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/10-ugc-vs-influencer/slide-04.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/10-ugc-vs-influencer/slide-05.jpg"
-   ],
-   "status": "scheduled",
-   "media_id": null
-  },
-  {
-   "slot_et": "2026-11-15T11:00",
-   "id": "11-visa-free-boom",
-   "title": "China's visa-free travel boom",
-   "pillar": "Travel",
-   "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
-   "image_urls": [
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/11-visa-free-boom/slide-01.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/11-visa-free-boom/slide-02.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/11-visa-free-boom/slide-03.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/11-visa-free-boom/slide-04.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/11-visa-free-boom/slide-05.jpg"
-   ],
-   "status": "scheduled",
-   "media_id": null
-  },
-  {
-   "slot_et": "2026-11-15T20:00",
-   "id": "12-athletes",
-   "title": "Why athletes should look at China",
-   "pillar": "Brand deals",
-   "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
-   "image_urls": [
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/12-athletes/slide-01.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/12-athletes/slide-02.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/12-athletes/slide-03.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/12-athletes/slide-04.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/12-athletes/slide-05.jpg"
-   ],
-   "status": "scheduled",
-   "media_id": null
-  },
-  {
-   "slot_et": "2026-11-16T11:00",
-   "id": "13-sh-vs-bj",
-   "title": "Shanghai vs Beijing",
-   "pillar": "Best cities",
-   "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
-   "image_urls": [
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/13-sh-vs-bj/slide-01.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/13-sh-vs-bj/slide-02.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/13-sh-vs-bj/slide-03.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/13-sh-vs-bj/slide-04.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/13-sh-vs-bj/slide-05.jpg"
-   ],
-   "status": "scheduled",
-   "media_id": null
-  },
-  {
-   "slot_et": "2026-11-16T20:00",
-   "id": "14-platform-fit",
-   "title": "Which Chinese app fits your content",
-   "pillar": "Untapped market",
-   "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
-   "image_urls": [
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/14-platform-fit/slide-01.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/14-platform-fit/slide-02.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/14-platform-fit/slide-03.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/14-platform-fit/slide-04.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/14-platform-fit/slide-05.jpg"
-   ],
-   "status": "scheduled",
-   "media_id": null
-  },
-  {
-   "slot_et": "2026-11-18T11:00",
-   "id": "15-hainan",
-   "title": "Hainan's 30-day visa-free entry",
-   "pillar": "Travel",
-   "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
-   "image_urls": [
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/15-hainan/slide-01.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/15-hainan/slide-02.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/15-hainan/slide-03.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/15-hainan/slide-04.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/15-hainan/slide-05.jpg"
-   ],
-   "status": "scheduled",
-   "media_id": null
-  },
-  {
-   "slot_et": "2026-11-18T20:00",
-   "id": "16-teach-reqs",
-   "title": "What you need to teach in China",
-   "pillar": "Jobs",
-   "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
-   "image_urls": [
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/16-teach-reqs/slide-01.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/16-teach-reqs/slide-02.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/16-teach-reqs/slide-03.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/16-teach-reqs/slide-04.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/16-teach-reqs/slide-05.jpg"
-   ],
-   "status": "scheduled",
-   "media_id": null
-  },
-  {
-   "slot_et": "2026-11-20T11:00",
-   "id": "17-deal-timeline",
-   "title": "A 4-week brand deal timeline",
-   "pillar": "Brand deals",
-   "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
-   "image_urls": [
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/17-deal-timeline/slide-01.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/17-deal-timeline/slide-02.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/17-deal-timeline/slide-03.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/17-deal-timeline/slide-04.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/17-deal-timeline/slide-05.jpg"
-   ],
-   "status": "scheduled",
-   "media_id": null
-  },
-  {
-   "slot_et": "2026-11-20T20:00",
-   "id": "18-chengdu",
-   "title": "Chengdu: the savings city",
-   "pillar": "Best cities",
-   "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
-   "image_urls": [
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/18-chengdu/slide-01.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/18-chengdu/slide-02.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/18-chengdu/slide-03.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/18-chengdu/slide-04.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/18-chengdu/slide-05.jpg"
-   ],
-   "status": "scheduled",
-   "media_id": null
-  },
-  {
-   "slot_et": "2026-11-22T11:00",
-   "id": "19-online-shoppers",
-   "title": "976 million online shoppers",
-   "pillar": "Untapped market",
-   "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
-   "image_urls": [
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/19-online-shoppers/slide-01.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/19-online-shoppers/slide-02.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/19-online-shoppers/slide-03.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/19-online-shoppers/slide-04.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/19-online-shoppers/slide-05.jpg"
-   ],
-   "status": "scheduled",
-   "media_id": null
-  },
-  {
-   "slot_et": "2026-11-22T20:00",
-   "id": "20-contract-flags",
-   "title": "Red flags in a China job contract",
-   "pillar": "Jobs",
-   "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
-   "image_urls": [
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/20-contract-flags/slide-01.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/20-contract-flags/slide-02.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/20-contract-flags/slide-03.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/20-contract-flags/slide-04.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/20-contract-flags/slide-05.jpg"
-   ],
-   "status": "scheduled",
-   "media_id": null
-  },
-  {
-   "slot_et": "2026-11-23T11:00",
-   "id": "21-media-kit",
-   "title": "Build a media kit brands say yes to",
-   "pillar": "Brand deals",
-   "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
-   "image_urls": [
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/21-media-kit/slide-01.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/21-media-kit/slide-02.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/21-media-kit/slide-03.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/21-media-kit/slide-04.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/21-media-kit/slide-05.jpg"
-   ],
-   "status": "scheduled",
-   "media_id": null
-  },
-  {
-   "slot_et": "2026-11-23T20:00",
-   "id": "22-canton-fair",
-   "title": "Guangzhou's Canton Fair guide",
-   "pillar": "Best cities",
-   "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
-   "image_urls": [
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/22-canton-fair/slide-01.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/22-canton-fair/slide-02.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/22-canton-fair/slide-03.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/22-canton-fair/slide-04.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/22-canton-fair/slide-05.jpg"
-   ],
-   "status": "scheduled",
-   "media_id": null
-  },
-  {
-   "slot_et": "2026-11-25T11:00",
-   "id": "23-trip-checklist",
-   "title": "First trip to China checklist",
-   "pillar": "Travel",
-   "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
-   "image_urls": [
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/23-trip-checklist/slide-01.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/23-trip-checklist/slide-02.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/23-trip-checklist/slide-03.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/23-trip-checklist/slide-04.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/23-trip-checklist/slide-05.jpg"
-   ],
-   "status": "scheduled",
-   "media_id": null
-  },
-  {
-   "slot_et": "2026-11-25T20:00",
-   "id": "24-schwarzman-yenching",
-   "title": "Fully funded master's in China",
-   "pillar": "Scholarships",
-   "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
-   "image_urls": [
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/24-schwarzman-yenching/slide-01.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/24-schwarzman-yenching/slide-02.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/24-schwarzman-yenching/slide-03.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/24-schwarzman-yenching/slide-04.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/24-schwarzman-yenching/slide-05.jpg"
-   ],
-   "status": "scheduled",
-   "media_id": null
-  },
-  {
-   "slot_et": "2026-11-27T11:00",
-   "id": "25-why-now",
-   "title": "Why now is the time for China",
-   "pillar": "Untapped market",
-   "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
-   "image_urls": [
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/25-why-now/slide-01.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/25-why-now/slide-02.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/25-why-now/slide-03.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/25-why-now/slide-04.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/25-why-now/slide-05.jpg"
-   ],
-   "status": "scheduled",
-   "media_id": null
-  },
-  {
-   "slot_et": "2026-11-27T20:00",
-   "id": "26-confucius",
-   "title": "Study Chinese for free",
-   "pillar": "Scholarships",
-   "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
-   "image_urls": [
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/26-confucius/slide-01.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/26-confucius/slide-02.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/26-confucius/slide-03.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/26-confucius/slide-04.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/26-confucius/slide-05.jpg"
-   ],
-   "status": "scheduled",
-   "media_id": null
-  },
-  {
-   "slot_et": "2026-11-29T11:00",
-   "id": "27-hz-wuhan",
-   "title": "Hangzhou and Wuhan",
-   "pillar": "Best cities",
-   "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
-   "image_urls": [
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/27-hz-wuhan/slide-01.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/27-hz-wuhan/slide-02.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/27-hz-wuhan/slide-03.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/27-hz-wuhan/slide-04.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/27-hz-wuhan/slide-05.jpg"
-   ],
-   "status": "scheduled",
-   "media_id": null
-  },
-  {
-   "slot_et": "2026-11-29T20:00",
-   "id": "28-creator-recruit",
-   "title": "We're signing creators and athletes",
-   "pillar": "Recruitment",
-   "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
-   "image_urls": [
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/28-creator-recruit/slide-01.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/28-creator-recruit/slide-02.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/28-creator-recruit/slide-03.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/28-creator-recruit/slide-04.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/28-creator-recruit/slide-05.jpg"
-   ],
-   "status": "scheduled",
-   "media_id": null
-  },
-  {
-   "slot_et": "2026-11-30T11:00",
-   "id": "29-kuaishou-bilibili",
-   "title": "The apps beyond Douyin",
-   "pillar": "Untapped market",
-   "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
-   "image_urls": [
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/29-kuaishou-bilibili/slide-01.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/29-kuaishou-bilibili/slide-02.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/29-kuaishou-bilibili/slide-03.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/29-kuaishou-bilibili/slide-04.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/29-kuaishou-bilibili/slide-05.jpg"
-   ],
-   "status": "scheduled",
-   "media_id": null
-  },
-  {
-   "slot_et": "2026-11-30T20:00",
-   "id": "30-month-recap",
-   "title": "China opportunities: the recap",
-   "pillar": "Recap",
-   "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
-   "image_urls": [
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/30-month-recap/slide-01.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/30-month-recap/slide-02.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/30-month-recap/slide-03.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/30-month-recap/slide-04.jpg",
-    "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/30-month-recap/slide-05.jpg"
-   ],
-   "status": "scheduled",
-   "media_id": null
-  }
- ]
+  "account": "17841476264781043",
+  "timezone": "America/New_York",
+  "approved": "2026-11-05 by user",
+  "posts": [
+    {
+      "slot_et": "2026-11-06T11:00",
+      "id": "01-five-apps",
+      "title": "China's apps by the numbers",
+      "pillar": "Untapped market",
+      "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
+      "image_urls": [
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/01-five-apps/slide-01.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/01-five-apps/slide-02.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/01-five-apps/slide-03.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/01-five-apps/slide-04.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/01-five-apps/slide-05.jpg"
+      ],
+      "status": "posted",
+      "media_id": "17989694942882650",
+      "posted_at": "2026-11-06T10:44:28-05:00"
+    },
+    {
+      "slot_et": "2026-11-06T20:00",
+      "id": "02-240-hours",
+      "title": "240-hour visa-free transit",
+      "pillar": "Travel",
+      "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
+      "image_urls": [
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/02-240-hours/slide-01.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/02-240-hours/slide-02.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/02-240-hours/slide-03.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/02-240-hours/slide-04.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/02-240-hours/slide-05.jpg"
+      ],
+      "status": "posted",
+      "media_id": "18033997421681677",
+      "posted_at": "2026-11-06T19:44:18-05:00"
+    },
+    {
+      "slot_et": "2026-11-08T11:00",
+      "id": "03-deal-flow",
+      "title": "How a China brand deal flows",
+      "pillar": "Brand deals",
+      "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
+      "image_urls": [
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/03-deal-flow/slide-01.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/03-deal-flow/slide-02.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/03-deal-flow/slide-03.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/03-deal-flow/slide-04.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/03-deal-flow/slide-05.jpg"
+      ],
+      "status": "posted",
+      "media_id": "17935872252423087",
+      "posted_at": "2026-11-08T10:44:06-05:00"
+    },
+    {
+      "slot_et": "2026-11-08T20:00",
+      "id": "05-short-video",
+      "title": "1 billion short-video users",
+      "pillar": "Untapped market",
+      "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
+      "image_urls": [
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/05-short-video/slide-01.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/05-short-video/slide-02.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/05-short-video/slide-03.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/05-short-video/slide-04.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/05-short-video/slide-05.jpg"
+      ],
+      "status": "posted",
+      "media_id": "18399785113160424",
+      "posted_at": "2026-11-08T19:44:04-05:00"
+    },
+    {
+      "slot_et": "2026-11-09T11:00",
+      "id": "04-jobs-5k",
+      "title": "Jobs in China paying up to $5,000 a month",
+      "pillar": "Jobs",
+      "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
+      "image_urls": [
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/04-jobs-5k/slide-01.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/04-jobs-5k/slide-02.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/04-jobs-5k/slide-03.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/04-jobs-5k/slide-04.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/04-jobs-5k/slide-05.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/04-jobs-5k/slide-06.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/04-jobs-5k/slide-07.jpg"
+      ],
+      "status": "posted",
+      "media_id": "18474464026188900",
+      "posted_at": "2026-11-09T10:44:34-05:00"
+    },
+    {
+      "slot_et": "2026-11-09T20:00",
+      "id": "06-gz-vs-sz",
+      "title": "Guangzhou vs Shenzhen",
+      "pillar": "Best cities",
+      "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
+      "image_urls": [
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/06-gz-vs-sz/slide-01.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/06-gz-vs-sz/slide-02.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/06-gz-vs-sz/slide-03.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/06-gz-vs-sz/slide-04.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/06-gz-vs-sz/slide-05.jpg"
+      ],
+      "status": "posted",
+      "media_id": "17958578145258911",
+      "posted_at": "2026-11-09T19:44:07-05:00"
+    },
+    {
+      "slot_et": "2026-11-11T11:00",
+      "id": "07-retail",
+      "title": "China's $7 trillion retail market",
+      "pillar": "Untapped market",
+      "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
+      "image_urls": [
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/07-retail/slide-01.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/07-retail/slide-02.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/07-retail/slide-03.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/07-retail/slide-04.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/07-retail/slide-05.jpg"
+      ],
+      "status": "posted",
+      "media_id": "18095661977207840",
+      "posted_at": "2026-11-11T10:43:37-0500"
+    },
+    {
+      "slot_et": "2026-11-11T20:00",
+      "id": "08-alipay",
+      "title": "Paying in China with your own card",
+      "pillar": "Travel",
+      "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
+      "image_urls": [
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/08-alipay/slide-01.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/08-alipay/slide-02.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/08-alipay/slide-03.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/08-alipay/slide-04.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/08-alipay/slide-05.jpg"
+      ],
+      "status": "scheduled",
+      "media_id": null
+    },
+    {
+      "slot_et": "2026-11-13T11:00",
+      "id": "09-csc",
+      "title": "Get paid to study in China",
+      "pillar": "Scholarships",
+      "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
+      "image_urls": [
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/09-csc/slide-01.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/09-csc/slide-02.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/09-csc/slide-03.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/09-csc/slide-04.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/09-csc/slide-05.jpg"
+      ],
+      "status": "scheduled",
+      "media_id": null
+    },
+    {
+      "slot_et": "2026-11-13T20:00",
+      "id": "10-ugc-vs-influencer",
+      "title": "UGC creator vs influencer",
+      "pillar": "Brand deals",
+      "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
+      "image_urls": [
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/10-ugc-vs-influencer/slide-01.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/10-ugc-vs-influencer/slide-02.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/10-ugc-vs-influencer/slide-03.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/10-ugc-vs-influencer/slide-04.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/10-ugc-vs-influencer/slide-05.jpg"
+      ],
+      "status": "scheduled",
+      "media_id": null
+    },
+    {
+      "slot_et": "2026-11-15T11:00",
+      "id": "11-visa-free-boom",
+      "title": "China's visa-free travel boom",
+      "pillar": "Travel",
+      "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
+      "image_urls": [
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/11-visa-free-boom/slide-01.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/11-visa-free-boom/slide-02.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/11-visa-free-boom/slide-03.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/11-visa-free-boom/slide-04.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/11-visa-free-boom/slide-05.jpg"
+      ],
+      "status": "scheduled",
+      "media_id": null
+    },
+    {
+      "slot_et": "2026-11-15T20:00",
+      "id": "12-athletes",
+      "title": "Why athletes should look at China",
+      "pillar": "Brand deals",
+      "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
+      "image_urls": [
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/12-athletes/slide-01.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/12-athletes/slide-02.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/12-athletes/slide-03.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/12-athletes/slide-04.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/12-athletes/slide-05.jpg"
+      ],
+      "status": "scheduled",
+      "media_id": null
+    },
+    {
+      "slot_et": "2026-11-16T11:00",
+      "id": "13-sh-vs-bj",
+      "title": "Shanghai vs Beijing",
+      "pillar": "Best cities",
+      "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
+      "image_urls": [
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/13-sh-vs-bj/slide-01.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/13-sh-vs-bj/slide-02.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/13-sh-vs-bj/slide-03.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/13-sh-vs-bj/slide-04.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/13-sh-vs-bj/slide-05.jpg"
+      ],
+      "status": "scheduled",
+      "media_id": null
+    },
+    {
+      "slot_et": "2026-11-16T20:00",
+      "id": "14-platform-fit",
+      "title": "Which Chinese app fits your content",
+      "pillar": "Untapped market",
+      "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
+      "image_urls": [
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/14-platform-fit/slide-01.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/14-platform-fit/slide-02.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/14-platform-fit/slide-03.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/14-platform-fit/slide-04.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/14-platform-fit/slide-05.jpg"
+      ],
+      "status": "scheduled",
+      "media_id": null
+    },
+    {
+      "slot_et": "2026-11-18T11:00",
+      "id": "15-hainan",
+      "title": "Hainan's 30-day visa-free entry",
+      "pillar": "Travel",
+      "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
+      "image_urls": [
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/15-hainan/slide-01.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/15-hainan/slide-02.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/15-hainan/slide-03.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/15-hainan/slide-04.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/15-hainan/slide-05.jpg"
+      ],
+      "status": "scheduled",
+      "media_id": null
+    },
+    {
+      "slot_et": "2026-11-18T20:00",
+      "id": "16-teach-reqs",
+      "title": "What you need to teach in China",
+      "pillar": "Jobs",
+      "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
+      "image_urls": [
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/16-teach-reqs/slide-01.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/16-teach-reqs/slide-02.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/16-teach-reqs/slide-03.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/16-teach-reqs/slide-04.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/16-teach-reqs/slide-05.jpg"
+      ],
+      "status": "scheduled",
+      "media_id": null
+    },
+    {
+      "slot_et": "2026-11-20T11:00",
+      "id": "17-deal-timeline",
+      "title": "A 4-week brand deal timeline",
+      "pillar": "Brand deals",
+      "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
+      "image_urls": [
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/17-deal-timeline/slide-01.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/17-deal-timeline/slide-02.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/17-deal-timeline/slide-03.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/17-deal-timeline/slide-04.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/17-deal-timeline/slide-05.jpg"
+      ],
+      "status": "scheduled",
+      "media_id": null
+    },
+    {
+      "slot_et": "2026-11-20T20:00",
+      "id": "18-chengdu",
+      "title": "Chengdu: the savings city",
+      "pillar": "Best cities",
+      "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
+      "image_urls": [
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/18-chengdu/slide-01.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/18-chengdu/slide-02.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/18-chengdu/slide-03.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/18-chengdu/slide-04.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/18-chengdu/slide-05.jpg"
+      ],
+      "status": "scheduled",
+      "media_id": null
+    },
+    {
+      "slot_et": "2026-11-22T11:00",
+      "id": "19-online-shoppers",
+      "title": "976 million online shoppers",
+      "pillar": "Untapped market",
+      "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
+      "image_urls": [
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/19-online-shoppers/slide-01.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/19-online-shoppers/slide-02.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/19-online-shoppers/slide-03.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/19-online-shoppers/slide-04.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/19-online-shoppers/slide-05.jpg"
+      ],
+      "status": "scheduled",
+      "media_id": null
+    },
+    {
+      "slot_et": "2026-11-22T20:00",
+      "id": "20-contract-flags",
+      "title": "Red flags in a China job contract",
+      "pillar": "Jobs",
+      "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
+      "image_urls": [
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/20-contract-flags/slide-01.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/20-contract-flags/slide-02.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/20-contract-flags/slide-03.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/20-contract-flags/slide-04.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/20-contract-flags/slide-05.jpg"
+      ],
+      "status": "scheduled",
+      "media_id": null
+    },
+    {
+      "slot_et": "2026-11-23T11:00",
+      "id": "21-media-kit",
+      "title": "Build a media kit brands say yes to",
+      "pillar": "Brand deals",
+      "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
+      "image_urls": [
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/21-media-kit/slide-01.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/21-media-kit/slide-02.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/21-media-kit/slide-03.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/21-media-kit/slide-04.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/21-media-kit/slide-05.jpg"
+      ],
+      "status": "scheduled",
+      "media_id": null
+    },
+    {
+      "slot_et": "2026-11-23T20:00",
+      "id": "22-canton-fair",
+      "title": "Guangzhou's Canton Fair guide",
+      "pillar": "Best cities",
+      "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
+      "image_urls": [
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/22-canton-fair/slide-01.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/22-canton-fair/slide-02.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/22-canton-fair/slide-03.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/22-canton-fair/slide-04.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/22-canton-fair/slide-05.jpg"
+      ],
+      "status": "scheduled",
+      "media_id": null
+    },
+    {
+      "slot_et": "2026-11-25T11:00",
+      "id": "23-trip-checklist",
+      "title": "First trip to China checklist",
+      "pillar": "Travel",
+      "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
+      "image_urls": [
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/23-trip-checklist/slide-01.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/23-trip-checklist/slide-02.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/23-trip-checklist/slide-03.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/23-trip-checklist/slide-04.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/23-trip-checklist/slide-05.jpg"
+      ],
+      "status": "scheduled",
+      "media_id": null
+    },
+    {
+      "slot_et": "2026-11-25T20:00",
+      "id": "24-schwarzman-yenching",
+      "title": "Fully funded master's in China",
+      "pillar": "Scholarships",
+      "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
+      "image_urls": [
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/24-schwarzman-yenching/slide-01.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/24-schwarzman-yenching/slide-02.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/24-schwarzman-yenching/slide-03.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/24-schwarzman-yenching/slide-04.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/24-schwarzman-yenching/slide-05.jpg"
+      ],
+      "status": "scheduled",
+      "media_id": null
+    },
+    {
+      "slot_et": "2026-11-27T11:00",
+      "id": "25-why-now",
+      "title": "Why now is the time for China",
+      "pillar": "Untapped market",
+      "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
+      "image_urls": [
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/25-why-now/slide-01.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/25-why-now/slide-02.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/25-why-now/slide-03.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/25-why-now/slide-04.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/25-why-now/slide-05.jpg"
+      ],
+      "status": "scheduled",
+      "media_id": null
+    },
+    {
+      "slot_et": "2026-11-27T20:00",
+      "id": "26-confucius",
+      "title": "Study Chinese for free",
+      "pillar": "Scholarships",
+      "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
+      "image_urls": [
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/26-confucius/slide-01.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/26-confucius/slide-02.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/26-confucius/slide-03.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/26-confucius/slide-04.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/26-confucius/slide-05.jpg"
+      ],
+      "status": "scheduled",
+      "media_id": null
+    },
+    {
+      "slot_et": "2026-11-29T11:00",
+      "id": "27-hz-wuhan",
+      "title": "Hangzhou and Wuhan",
+      "pillar": "Best cities",
+      "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
+      "image_urls": [
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/27-hz-wuhan/slide-01.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/27-hz-wuhan/slide-02.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/27-hz-wuhan/slide-03.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/27-hz-wuhan/slide-04.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/27-hz-wuhan/slide-05.jpg"
+      ],
+      "status": "scheduled",
+      "media_id": null
+    },
+    {
+      "slot_et": "2026-11-29T20:00",
+      "id": "28-creator-recruit",
+      "title": "We're signing creators and athletes",
+      "pillar": "Recruitment",
+      "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
+      "image_urls": [
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/28-creator-recruit/slide-01.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/28-creator-recruit/slide-02.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/28-creator-recruit/slide-03.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/28-creator-recruit/slide-04.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/28-creator-recruit/slide-05.jpg"
+      ],
+      "status": "scheduled",
+      "media_id": null
+    },
+    {
+      "slot_et": "2026-11-30T11:00",
+      "id": "29-kuaishou-bilibili",
+      "title": "The apps beyond Douyin",
+      "pillar": "Untapped market",
+      "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
+      "image_urls": [
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/29-kuaishou-bilibili/slide-01.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/29-kuaishou-bilibili/slide-02.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/29-kuaishou-bilibili/slide-03.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/29-kuaishou-bilibili/slide-04.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/29-kuaishou-bilibili/slide-05.jpg"
+      ],
+      "status": "scheduled",
+      "media_id": null
+    },
+    {
+      "slot_et": "2026-11-30T20:00",
+      "id": "30-month-recap",
+      "title": "China opportunities: the recap",
+      "pillar": "Recap",
+      "caption": "Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou",
+      "image_urls": [
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/30-month-recap/slide-01.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/30-month-recap/slide-02.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/30-month-recap/slide-03.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/30-month-recap/slide-04.jpg",
+        "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/30-month-recap/slide-05.jpg"
+      ],
+      "status": "scheduled",
+      "media_id": null
+    }
+  ]
 }
