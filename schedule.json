@@ -18,7 +18,7 @@
       ],
       "status": "posted",
       "media_id": "17989694942882650",
-      "posted_at": "2026-11-06T10:44:28-05:00"
+      "posted_at": "2026-11-11T19:44:37-0500"
     },
     {
       "slot_et": "2026-11-06T20:00",
@@ -35,7 +35,7 @@
       ],
       "status": "posted",
       "media_id": "18033997421681677",
-      "posted_at": "2026-11-06T19:44:18-05:00"
+      "posted_at": "2026-11-11T19:44:37-0500"
     },
     {
       "slot_et": "2026-11-08T11:00",
@@ -52,7 +52,7 @@
       ],
       "status": "posted",
       "media_id": "17935872252423087",
-      "posted_at": "2026-11-08T10:44:06-05:00"
+      "posted_at": "2026-11-11T19:44:37-0500"
     },
     {
       "slot_et": "2026-11-08T20:00",
@@ -69,7 +69,7 @@
       ],
       "status": "posted",
       "media_id": "18399785113160424",
-      "posted_at": "2026-11-08T19:44:04-05:00"
+      "posted_at": "2026-11-11T19:44:37-0500"
     },
     {
       "slot_et": "2026-11-09T11:00",
@@ -88,7 +88,7 @@
       ],
       "status": "posted",
       "media_id": "18474464026188900",
-      "posted_at": "2026-11-09T10:44:34-05:00"
+      "posted_at": "2026-11-11T19:44:37-0500"
     },
     {
       "slot_et": "2026-11-09T20:00",
@@ -105,7 +105,7 @@
       ],
       "status": "posted",
       "media_id": "17958578145258911",
-      "posted_at": "2026-11-09T19:44:07-05:00"
+      "posted_at": "2026-11-11T19:44:37-0500"
     },
     {
       "slot_et": "2026-11-11T11:00",
@@ -137,8 +137,9 @@
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/08-alipay/slide-04.jpg",
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/08-alipay/slide-05.jpg"
       ],
-      "status": "scheduled",
-      "media_id": null
+      "status": "posted",
+      "media_id": "18105233147452600",
+      "posted_at": "2026-11-11T19:44:37-0500"
     },
     {
       "slot_et": "2026-11-13T11:00",
