@@ -22,6 +22,7 @@ S = dict(
     gdp="Source: Xinhua via Henan Gov't (Feb 2026); Caproasia (Jan 2026); 36Kr",
 )
 
+FX = "USD at 6.67 RMB (Oct 26, 2026)"
 CTA_CREATOR = dict(type="cta", title="Want a brand deal\nin *China?*",
     sub="We're signing **UGC creators** and **athletes** for China brand partnerships.",
     points=["Follow for weekly China opportunities", "DM us your media kit to get started"])
@@ -108,7 +109,7 @@ dict(id="08-alipay", slot="2026-11-11T20:00", pillar="Travel", title="Paying in 
  CTA_TRAVEL]),
 # ---------------- 9 ----------------
 dict(id="09-csc", slot="2026-11-13T11:00", pillar="Scholarships", title="Get paid to study in China", slides=[
- dict(type="cover", label="China · Scholarships", title="Get *paid*\nto study\nin China.", sub="The Chinese Government Scholarship (CSC), explained."),
+ dict(type="cover", label="China · Scholarships", title="Get *paid*\nto study in China.", size=100, big="3,500 RMB", bsize=150, unit="/ month (~$525)", chips=["**Tuition**: 100% covered", "**Free dorm** on campus", "**Stipend**: 2,500-3,500 RMB/mo", "**Health insurance** included", "**Bachelor's, Master's, PhD** · apply Nov-Apr"], src=S["csc"] + ". " + FX),
  dict(type="list", label="What it covers", title="Fully *funded*", items=["**Tuition** paid in full", "**Free dorm** on campus", "**Health insurance** (CNY 800 a year)", "**A monthly stipend** on top"], src=S["csc"]),
  dict(type="bars", label="Monthly stipend, RMB", title="What you *receive*", max=3500, bars=[["PhD", 3500, "3,500"], ["Master's", 3000, "3,000"], ["Bachelor's", 2500, "2,500"]], note="About US$375-$525 a month at Oct 2026 rates, with no rent to pay", src=S["csc"]),
  dict(type="timeline", label="The application cycle", title="When to *apply*", items=[
@@ -116,7 +117,7 @@ dict(id="09-csc", slot="2026-11-13T11:00", pillar="Scholarships", title="Get pai
  CTA_CAREER]),
 # ---------------- 10 ----------------
 dict(id="10-ugc-vs-influencer", slot="2026-11-13T20:00", pillar="Brand deals", title="UGC creator vs influencer", slides=[
- dict(type="cover", label="China · Brand deals", title="You don't need\n*a million*\nfollowers.", sub="UGC creators get paid for the content, not the audience."),
+ dict(type="cover", label="China · Brand deals", title="Get paid for content.\n*Not followers.*", size=96, chips=["**Brand pays per video**, not per follower", "**Small following** is fine", "**15-60 sec** vertical 9:16 videos", "**Brands**: hotels, cafés, fashion, sportswear", "**Start with 3 sample videos** of products you own"]),
  dict(type="split", top=dict(label="Two ways to get paid", title="UGC creator", points=["Brand pays for the video", "Brand posts it on its own page or ads", "Small following is fine"]),
    bottom=dict(title="Influencer", points=["Brand pays for your reach", "You post it to your audience", "Followers and engagement matter"], best_label="Best:", best="do both as you grow.")),
  dict(type="list", label="Winning UGC", title="What brands *buy*", items=["A hook in the first 2 seconds", "Real use of the product, on camera", "Clear audio and captions", "Vertical 9:16, 15-60 seconds"]),
@@ -124,7 +125,7 @@ dict(id="10-ugc-vs-influencer", slot="2026-11-13T20:00", pillar="Brand deals", t
  CTA_CREATOR]),
 # ---------------- 11 ----------------
 dict(id="11-visa-free-boom", slot="2026-11-15T11:00", pillar="Travel", title="China's visa-free travel boom", slides=[
- dict(type="cover", label="China · Travel", title="Everyone is\n*going to China.*", sub="Visa-free entries jumped more than 50% in a year."),
+ dict(type="cover", label="China · Travel", title="Everyone is\n*going to China.*", size=100, big="13.64M", bsize=170, unit="visa-free entries", chips=["**+53.9%** in one year", "**38.05M** foreign trips, Jan-Jun 2025", "**Hotels & brands** want foreign guests", "**Few English creators** cover it"], src=S["nia"]),
  dict(type="stat", label="Visa-free entries, Jan-Jun 2025", value="13.64M", size=200, title="foreign visitors, *no visa needed*", sub="Up **53.9%** on the same period a year earlier.", src=S["nia"]),
  dict(type="bars", label="Jan-Jun 2025, millions", title="The *growth*", max=38.05, bars=[["All foreign trips", 38.05, "38.05M", "dim"], ["Visa-free entries", 13.64, "13.64M"]],
    note="Foreign trips grew 30.2%. Visa-free entries grew 53.9%.", src=S["nia"]),
@@ -132,14 +133,14 @@ dict(id="11-visa-free-boom", slot="2026-11-15T11:00", pillar="Travel", title="Ch
  CTA_CREATOR]),
 # ---------------- 12 ----------------
 dict(id="12-athletes", slot="2026-11-15T20:00", pillar="Brand deals", title="Why athletes should look at China", slides=[
- dict(type="cover", label="China · Athletes", title="Athletes:\nChina's sports\nmarket is *huge.*", sub="A US$540 billion industry looking for faces."),
+ dict(type="cover", label="China · Athletes", title="Athletes: China's\nsports market is *huge.*", size=92, big="$540B", bsize=180, unit="industry", chips=["**72%** is services: training, events, fitness", "**Sportswear & gear** campaigns", "**Gyms & fitness apps**", "**Events, clinics, appearances**", "**Nutrition & recovery** brand deals"], src=S["sport"]),
  dict(type="stat", label="Sports industry total output, 2024", value="3.84T", size=230, title="yuan, about *US$540.6 billion*", sub="Sport was **1.19%** of China's GDP in 2024.", src=S["sport"]),
  dict(type="donut", label="Where the value comes from", title="Mostly *services*", pct=72, center="72%", side="**Sports services** made up 72% of value added. Goods manufacturing was 26.5%. Training, events and fitness need athletes.", src=S["sport"]),
  dict(type="list", label="Deals that fit athletes", title="How *you* fit in", items=["Sportswear and gear campaigns", "Gym, training and fitness app content", "Events, clinics and appearances", "Nutrition and recovery brands"]),
  dict(type="cta", title="Athletes,\nlet's *talk.*", sub="We're signing **athletes** and **UGC creators** for brand deals in China.", points=["Follow for weekly China opportunities", "DM us your sport, stats and media kit"])]),
 # ---------------- 13 ----------------
 dict(id="13-sh-vs-bj", slot="2026-11-16T11:00", pillar="Best cities", title="Shanghai vs Beijing", slides=[
- dict(type="cover", label="China · Best cities", title="Shanghai\nor *Beijing?*", sub="China's two biggest economies, side by side."),
+ dict(type="cover", label="China · Best cities", title="Shanghai\nor *Beijing?*", size=110, chips=["**Shanghai** avg. wage: **12,434 RMB**/mo", "**Beijing** avg. wage: **11,937 RMB**/mo", "**Foreigner pay bar**: **49,736 RMB** (SH)", "**Foreigner pay bar**: **47,748 RMB** (BJ)", "**Shanghai**: finance & fashion · **Beijing**: culture & study"], src="Sources: China Briefing (Feb 2026), 2025 wage basis, Category B work permit benchmarks"),
  dict(type="split", top=dict(label="Both passed 5 trillion yuan GDP", title="Shanghai", points=["2025 GDP: 5.6 trillion yuan", "Avg. wage: 12,434 RMB/month", "Finance, fashion, nightlife"], best_label="Best for:", best="brand and lifestyle content"),
    bottom=dict(title="Beijing", points=["2025 GDP: over 5 trillion yuan", "Avg. wage: 11,937 RMB/month", "History, culture, universities"], best_label="Best for:", best="culture, study and history content"), src="Sources: Caproasia (Jan 2026); Xinhua via Henan Gov't (Feb 2026); China Briefing (Feb 2026)"),
  dict(type="bars", label="Work permit bar for Category B, RMB/month", title="The *pay bar* for foreigners", max=49736, bars=[["Shanghai", 49736, "49,736"], ["Beijing", 47748, "47,748"]],
@@ -148,7 +149,7 @@ dict(id="13-sh-vs-bj", slot="2026-11-16T11:00", pillar="Best cities", title="Sha
  CTA_TRAVEL]),
 # ---------------- 14 ----------------
 dict(id="14-platform-fit", slot="2026-11-16T20:00", pillar="Untapped market", title="Which Chinese app fits your content", slides=[
- dict(type="cover", label="China · Platforms", title="Which Chinese\napp fits *your*\ncontent?", sub="A quick guide to the big three for creators."),
+ dict(type="cover", label="China · Platforms", title="Which Chinese app\nfits *your* content?", size=96, chips=["**Douyin**: **714M** daily users", "**Xiaohongshu**: **245M** monthly", "**Bilibili**: **113 min**/day per user", "**Niches**: food, fitness, beauty", "**Travel, fashion, gaming, education**: there's an app for each"], src="Sources: Nomura via TechNode (Jul 2026); QuestMobile via 36Kr (Mar 2026); Bilibili Q2 2026"),
  dict(type="split", top=dict(label="Short video vs lifestyle", title="Douyin", points=["714M daily users", "Fast, trend-driven video", "Like TikTok, built for China"], best_label="Fits:", best="entertainment, food, fitness"),
    bottom=dict(title="Xiaohongshu", points=["245M monthly users", "Young, mostly female, big cities", "Reviews, travel, beauty, fashion"], best_label="Fits:", best="lifestyle and travel"), src="Sources: Nomura via TechNode (Jul 2026); QuestMobile via 36Kr (Mar 2026); CBBC"),
  dict(type="stat", label="Bilibili · long-form video", value="113", title="*minutes a day* per user", sub="371M monthly users who watch longer videos, like YouTube.", src=S["bili"]),
@@ -156,7 +157,7 @@ dict(id="14-platform-fit", slot="2026-11-16T20:00", pillar="Untapped market", ti
  CTA_CREATOR]),
 # ---------------- 15 ----------------
 dict(id="15-hainan", slot="2026-11-18T11:00", pillar="Travel", title="Hainan's 30-day visa-free entry", slides=[
- dict(type="cover", label="China · Travel", title="China's tropical\nisland is\n*visa-free.*", sub="Hainan's 30-day entry, and how it compares."),
+ dict(type="cover", label="China · Travel", title="China's tropical island\nis *visa-free.*", size=96, big="30 days", bsize=170, unit="no visa", chips=["**61 countries** eligible", "**Beaches, resorts, duty-free**", "**Film**: hotel reviews, water sports", "**vs 240-hr transit**: 10 days, 57 countries"], src=S["hainan"] + "; Shanghai Gov't (Jul 2026)"),
  dict(type="split", top=dict(label="Two visa-free routes", title="Hainan", points=["Up to 30 days", "61 eligible countries", "Beaches, resorts, duty-free"], best_label="Best for:", best="a beach and resort trip"),
    bottom=dict(title="240-hour transit", points=["Up to 10 days", "57 eligible countries", "Must exit to a third country"], best_label="Best for:", best="a multi-city stopover"), src=S["hainan"] + "; Shanghai Gov't (Jul 2026)"),
  dict(type="tiles", label="Hainan at a glance", title="Why *creators* go", tiles=[["30", "days visa-free in Hainan"], ["61", "countries eligible for Hainan"], ["10", "days on 240-hour transit"], ["57", "countries for 240-hour transit"]], src=S["hainan"] + "; Shanghai Gov't (Jul 2026)"),
@@ -164,7 +165,7 @@ dict(id="15-hainan", slot="2026-11-18T11:00", pillar="Travel", title="Hainan's 3
  CTA_TRAVEL]),
 # ---------------- 16 ----------------
 dict(id="16-teach-reqs", slot="2026-11-18T20:00", pillar="Jobs", title="What you need to teach in China", slides=[
- dict(type="cover", label="China · Jobs", title="Can *you* teach\nEnglish in\nChina?", sub="The requirements, in one list."),
+ dict(type="cover", label="China · Jobs", title="Teach English in China.\n*Here's what you need.*", size=88, big="$5,250+", bsize=160, unit="/ month at top schools", chips=["**Bachelor's** in any subject", "**120-hour TEFL**, TESOL or CELTA", "**Age 18-60** + background check", "**Public schools**: $1,800-$3,000/mo", "**Schools**: international, kindergartens, training centers, universities"], src=S["teach"] + ". " + FX),
  dict(type="list", label="The checklist", title="What you *need*", items=["A **bachelor's degree** in any subject", "A **120-hour TEFL**, TESOL or CELTA", "A **background check** (within 6 months, apostilled)", "**Age 18-60** and a post-arrival medical"], src=S["teach"]),
  dict(type="split", top=dict(label="Passports schools prefer", title="Easiest", points=["US, UK, Ireland, Canada", "Australia, New Zealand", "South Africa"]),
    bottom=dict(title="Possible", points=["Other passports can work", "Approval is harder", "Strong experience helps"], best_label="International schools:", best="need a license + 2 yrs."), src=S["teach"]),
@@ -172,7 +173,7 @@ dict(id="16-teach-reqs", slot="2026-11-18T20:00", pillar="Jobs", title="What you
  CTA_CAREER]),
 # ---------------- 17 ----------------
 dict(id="17-deal-timeline", slot="2026-11-20T11:00", pillar="Brand deals", title="A 4-week brand deal timeline", slides=[
- dict(type="cover", label="China · Brand deals", title="Your first deal\nin *4 weeks.*", sub="A typical timeline when we manage it for you."),
+ dict(type="cover", label="China · Brand deals", title="Your first paid\nbrand deal in *4 weeks.*", size=92, chips=["**Week 1**: matched with a brand", "**Week 2**: brief, dates, **payment**", "**Week 3**: visit & film", "**Week 4**: post & **get paid**", "**Brands**: hotels, cafés, fashion, sportswear · **plus free stays & products**"]),
  dict(type="timeline", label="Week by week", title="The *4-week* deal", items=[
    dict(w="Week 1", t="Media kit and match", d="we find a brand that fits your niche", hi=True), dict(w="Week 2", t="Brief and agreement", d="deliverables, dates, payment"), dict(w="Week 3", t="Visit and film", d="the hotel, café or product"), dict(w="Week 4", t="Post and get paid", d="report results to the brand")]),
  dict(type="split", top=dict(label="Your job vs ours", title="You", points=["Create great content", "Post on time", "Share your results"]),
@@ -181,7 +182,7 @@ dict(id="17-deal-timeline", slot="2026-11-20T11:00", pillar="Brand deals", title
  CTA_CREATOR]),
 # ---------------- 18 ----------------
 dict(id="18-chengdu", slot="2026-11-20T20:00", pillar="Best cities", title="Chengdu: the savings city", slides=[
- dict(type="cover", label="China · Best cities", title="Earn less.\n*Save more.*", sub="Why Chengdu can beat Shanghai for your bank account."),
+ dict(type="cover", label="China · Best cities", title="Earn less.\n*Save more.*", size=110, big="16,000 RMB", bsize=140, unit="/ mo + free housing", chips=["**Shanghai**: 22,000 − **8,000 rent** = 14,000", "**Tier-2 teacher pay**: **14k-22k RMB** (~$2,100-$3,300)", "**Cities**: Chengdu, Hangzhou, Wuhan, Xi'an"], src=S["teach"] + ". Example offer; yours will differ. " + FX),
  dict(type="bars", label="Monthly, RMB, after rent", title="What's *left over*", max=16000, bars=[["Chengdu: 16,000 + free housing", 16000, "16,000"], ["Shanghai: 22,000 - 8,000 rent", 14000, "14,000", "dim"]],
    note="Example from a 2026 teaching salary guide. Your offer will differ.", src=S["teach"]),
  dict(type="ranges", label="Typical teacher pay, RMB/month", title="Tier-2 cities *pay well*", max=25000, bars=[["Chengdu", 14000, 22000, "14k-22k"], ["Hangzhou", 14000, 22000, "14k-22k"], ["Wuhan", 14000, 22000, "14k-22k"], ["Xi'an", 14000, 22000, "14k-22k"]], src=S["teach"]),
@@ -189,7 +190,7 @@ dict(id="18-chengdu", slot="2026-11-20T20:00", pillar="Best cities", title="Chen
  CTA_CAREER]),
 # ---------------- 19 ----------------
 dict(id="19-online-shoppers", slot="2026-11-22T11:00", pillar="Untapped market", title="976 million online shoppers", slides=[
- dict(type="cover", label="China · Untapped market", title="*976 million*\nonline\nshoppers.", sub="And they buy what creators recommend."),
+ dict(type="cover", label="China · Untapped market", title="Shoppers who buy\nwhat *creators* recommend.", size=88, big="976M", bsize=180, unit="online shoppers", chips=["**15.97T yuan** online retail, 2025", "**87%** of internet users shop online", "**1.068B** short-video users", "**Review → save → buy**: creators move product"], src="Sources: CNNIC (Jun 2025); NBS 2025"),
  dict(type="donut", label="Share of internet users who shop online", title="Shopping is *default*", pct=86.9, center="87%", side="**976 million** people shop online in China, 86.9% of internet users.", src=S["cnnic_mid"]),
  dict(type="tiles", label="The scale", title="China online, *in numbers*", tiles=[["1.125B", "internet users"], ["1.068B", "short-video users"], ["976M", "online shoppers"], ["15.97T", "yuan online retail, 2025"]], vsize=78,
    src="Sources: CNNIC (Dec 2025, Jun 2025); NBS 2025"),
@@ -197,7 +198,7 @@ dict(id="19-online-shoppers", slot="2026-11-22T11:00", pillar="Untapped market",
  CTA_CREATOR]),
 # ---------------- 20 ----------------
 dict(id="20-contract-flags", slot="2026-11-22T20:00", pillar="Jobs", title="Red flags in a China job contract", slides=[
- dict(type="cover", label="China · Jobs", title="5 *red flags*\nin a China\njob contract.", sub="Read this before you sign anything."),
+ dict(type="cover", label="China · Jobs", title="5 *red flags*\nin a China job contract.", size=96, chips=["**Early termination penalties**", "**Salary withheld** as a deposit", "**Unclear overtime** rules", "**Vague housing** terms", "**No English version** of the contract"], sub="Read this before you sign anything.", src=S["teach"]),
  dict(type="list", label="Watch for", title="Red *flags*", items=["Big **early termination penalties**", "Salary **withheld as a deposit**", "**Unclear overtime** rules", "**Vague housing** terms", "**No English version** of the contract"], src=S["teach"]),
  dict(type="split", top=dict(label="Good vs bad offer", title="Red flag", points=["'Housing provided' with no details", "Pay held back until you finish", "Hours 'as needed'"]),
    bottom=dict(title="Green flag", points=["Housing address or stipend amount", "Pay on a fixed date each month", "Weekly hours written down"], best_label="Rule:", best="if it's not written, it's not real.")),
@@ -205,7 +206,7 @@ dict(id="20-contract-flags", slot="2026-11-22T20:00", pillar="Jobs", title="Red 
  CTA_CAREER]),
 # ---------------- 21 ----------------
 dict(id="21-media-kit", slot="2026-11-23T11:00", pillar="Brand deals", title="Build a media kit brands say yes to", slides=[
- dict(type="cover", label="China · Brand deals", title="The *media kit*\nthat gets\nyou paid.", sub="One page. Five sections. Done."),
+ dict(type="cover", label="China · Brand deals", title="The *media kit*\nthat gets you paid.", size=100, chips=["**Niche** + one-line bio", "**Audience**: size, age, location", "**Results**: views, saves, engagement", "**3 best examples** with links", "**Clear rates**: per video and per package"], sub="One page. Five sections. Brands say yes faster."),
  dict(type="list", label="What goes in it", title="Your *one-pager*", items=["**Who you are**: niche and one-line bio", "**Your audience**: size, age, top locations", "**Results**: views, saves, engagement", "**3 best examples** with links", "**Rates**: per video, per package"]),
  dict(type="split", top=dict(label="Weak vs strong", title="Weak", points=["'I have 8K followers'", "No examples", "'Rates on request'"]),
    bottom=dict(title="Strong", points=["'8K followers, 60% aged 18-34'", "3 videos in your niche", "Clear package prices"], best_label="Result:", best="faster yeses.")),
@@ -213,7 +214,7 @@ dict(id="21-media-kit", slot="2026-11-23T11:00", pillar="Brand deals", title="Bu
  CTA_CREATOR]),
 # ---------------- 22 ----------------
 dict(id="22-canton-fair", slot="2026-11-23T20:00", pillar="Best cities", title="Guangzhou's Canton Fair guide", slides=[
- dict(type="cover", label="China · Guangzhou", title="The world's\nbiggest\n*trade fair.*", sub="The Canton Fair in Guangzhou, explained."),
+ dict(type="cover", label="China · Guangzhou", title="The world's\nbiggest *trade fair.*", size=100, big="167K", bsize=170, unit="overseas buyers", chips=["**216** countries & regions", "**12K+** exhibitors", "**Niches**: advanced manufacturing", "**Home & lifestyle** goods", "**Jobs**: foreign trade sales, cross-border e-commerce"], src=S["canton"]),
  dict(type="tiles", label="Spring 2026, phase 1", title="By the *numbers*", tiles=[["167K", "overseas buyers"], ["216", "countries and regions"], ["12K+", "exhibitors"], ["+5.9%", "buyers vs last edition"]], vsize=86, src=S["canton"]),
  dict(type="timeline", label="Spring 2026 schedule", title="Three *phases*", items=[
    dict(w="Phase 1 · ended Apr 19", t="Advanced manufacturing", d="theme: advancing manufacturing"), dict(w="Phase 2 · Apr 23-27", t="Home and lifestyle goods", hi=True), dict(w="Phase 3 · through May 5", t="Final phase of the fair")], src=S["canton"] + ". Check cantonfair.org.cn for 2027 dates"),
@@ -221,14 +222,14 @@ dict(id="22-canton-fair", slot="2026-11-23T20:00", pillar="Best cities", title="
  CTA_TRAVEL]),
 # ---------------- 23 ----------------
 dict(id="23-trip-checklist", slot="2026-11-25T11:00", pillar="Travel", title="First trip to China checklist", slides=[
- dict(type="cover", label="China · Travel", title="Your first trip\nto China:\n*the checklist.*", sub="Save this before you book."),
+ dict(type="cover", label="China · Travel", title="First trip to China:\n*the checklist.*", size=96, chips=["**Visa-free?** 57 countries, 10 days", "**Alipay** + your own card", "**WeChat Pay** as a backup", "**Under 200 RMB**: no card fee", "**Offline maps, translator** and a little cash"], sub="Save this before you book.", src=S["t240"].split(". Rules")[0] + "; " + S["alipay"].replace("Source: ", "")),
  dict(type="list", label="Before you book", title="Step *one*", items=["Check if your passport qualifies for visa-free entry", "240-hour transit? Book an exit to a **third country**", "Not eligible? Apply for a tourist visa early", "Check that your passport isn't close to expiring"], src=S["t240"]),
  dict(type="list", label="Before you fly", title="Step *two*", items=["Set up **Alipay** and link your card", "Add **WeChat Pay** as a backup", "Download offline maps and a translator", "Carry a little cash"], src=S["alipay"]),
  dict(type="flow", label="When you land", title="Step *three*", steps=[dict(t="Show passport and onward ticket"), dict(t="Make a small test payment", d="under 200 RMB, no fee", hi=True), dict(t="Start creating")], src=S["alipay"]),
  CTA_TRAVEL]),
 # ---------------- 24 ----------------
 dict(id="24-schwarzman-yenching", slot="2026-11-25T20:00", pillar="Scholarships", title="Fully funded master's in China", slides=[
- dict(type="cover", label="China · Scholarships", title="A free master's\nat China's *top*\nuniversities.", sub="Schwarzman vs Yenching."),
+ dict(type="cover", label="China · Scholarships", title="A free master's at\nChina's *top* universities.", size=88, big="$0", bsize=180, unit="tuition, plus a stipend", chips=["**Schwarzman · Tsinghua**: Global Affairs, 1 year", "**Yenching · Peking U**: China Studies", "**Covers**: tuition, housing, travel", "**Ages 18-28** (Schwarzman)"], src=S["schw"]),
  dict(type="split", top=dict(label="Two elite scholarships", title="Schwarzman", points=["Tsinghua University, Beijing", "1-year master's in Global Affairs", "Ages 18-28"], best_label="Covers:", best="tuition, room, travel, stipend"),
    bottom=dict(title="Yenching", points=["Peking University, Beijing", "Master's in China Studies", "Preferably 25 or younger"], best_label="Covers:", best="tuition, housing, living costs"), src=S["schw"]),
  dict(type="list", label="Schwarzman covers", title="Everything, *basically*", items=["Tuition and fees", "Room and board", "Round-trip travel to Beijing", "In-country study tour", "Health insurance and a stipend"], src=S["schw"]),
@@ -236,7 +237,7 @@ dict(id="24-schwarzman-yenching", slot="2026-11-25T20:00", pillar="Scholarships"
  CTA_CAREER]),
 # ---------------- 25 ----------------
 dict(id="25-why-now", slot="2026-11-27T11:00", pillar="Untapped market", title="Why now is the time for China", slides=[
- dict(type="cover", label="China · Untapped market", title="Why *now*\nis the time\nfor China.", sub="Three trends lining up at once."),
+ dict(type="cover", label="China · Untapped market", title="Why *now*\nis the time for China.", size=100, chips=["**+53.9%** visa-free entries", "**+8.6%** online retail growth", "**+19%** Douyin daily users", "**57 countries** visa-free transit", "**Brand deals, jobs, travel**: the window is open"], src="Sources: NIA via Xinhua (H1 2025); NBS 2025; Nomura via TechNode (Jul 2026); Shanghai Gov't"),
  dict(type="tiles", label="Three trends", title="The *window*", tiles=[["+53.9%", "visa-free entries, H1 2025"], ["+8.6%", "online retail growth, 2025"], ["+19%", "Douyin daily users, year on year"], ["57", "countries with 240-hr transit"]], vsize=78,
    src="Sources: NIA via Xinhua; NBS; Nomura via TechNode (Jul 2026); Shanghai Gov't"),
  dict(type="split", top=dict(label="Then vs now", title="Before", points=["Hard to visit", "Payments confusing for visitors", "Few creator connections"]),
@@ -246,7 +247,7 @@ dict(id="25-why-now", slot="2026-11-27T11:00", pillar="Untapped market", title="
  CTA_CREATOR]),
 # ---------------- 26 ----------------
 dict(id="26-confucius", slot="2026-11-27T20:00", pillar="Scholarships", title="Study Chinese for free", slides=[
- dict(type="cover", label="China · Scholarships", title="Learn Chinese\n*for free*\nin China.", sub="The Confucius Institute Scholarship."),
+ dict(type="cover", label="China · Scholarships", title="Learn Chinese\n*for free* in China.", size=100, big="3,000 RMB", bsize=140, unit="/ month max stipend", chips=["**Full tuition**", "**Free dorm**", "**Stipend**: 2,500-3,000 RMB/mo", "**1,500 RMB** settlement allowance", "**Bilingual = better jobs & brand deals**"], src=S["csc"]),
  dict(type="list", label="What it covers", title="The *package*", items=["**Full tuition**", "**Free dorm**", "**2,500-3,000 RMB** monthly stipend", "**1,500 RMB** one-time settlement allowance", "Basic health insurance"], src=S["csc"]),
  dict(type="split", top=dict(label="Two scholarships", title="Confucius", points=["Focus: learning Chinese", "Apply via a Confucius Institute", "Usually due Jan-Apr"]),
    bottom=dict(title="CSC", points=["Focus: full degrees", "Apply via embassy or university", "Jan-Apr, varies by country"], best_label="Tip:", best="start in winter."), src=S["csc"]),
@@ -254,7 +255,7 @@ dict(id="26-confucius", slot="2026-11-27T20:00", pillar="Scholarships", title="S
  CTA_CAREER]),
 # ---------------- 27 ----------------
 dict(id="27-hz-wuhan", slot="2026-11-29T11:00", pillar="Best cities", title="Hangzhou and Wuhan", slides=[
- dict(type="cover", label="China · Best cities", title="Cities you've\n*never heard of*\nwith huge economies.", size=118, sub="Hangzhou and Wuhan, both over 2 trillion yuan."),
+ dict(type="cover", label="China · Best cities", title="Cities you've\n*never heard of*\nwith huge economies.", size=88, big="2T+", bsize=170, unit="yuan GDP each", chips=["**Hangzhou**: **2.30T** · tech & e-commerce", "**Wuhan**: **2.21T** · universities", "**Wuhan teacher pay**: 14k-22k RMB", "**29 cities** over 1T yuan"], src=S["gdp"] + "; Migaku 2026"),
  dict(type="bars", label="2025 GDP, trillion yuan", title="Bigger than *you think*", max=5.6, bars=[["Shanghai", 5.6, "5.6T", "dim"], ["Hangzhou", 2.3011, "2.30T"], ["Wuhan", 2.2147, "2.21T"]],
    note="China now has **29 cities** with GDP over 1 trillion yuan.", src=S["gdp"]),
  dict(type="split", top=dict(label="Two rising cities", title="Hangzhou", points=["Tech and e-commerce hub", "Famous West Lake scenery", "240-hour entry port"], best_label="Best for:", best="tech, travel, lifestyle"),
@@ -263,7 +264,7 @@ dict(id="27-hz-wuhan", slot="2026-11-29T11:00", pillar="Best cities", title="Han
  CTA_TRAVEL]),
 # ---------------- 28 ----------------
 dict(id="28-creator-recruit", slot="2026-11-29T20:00", pillar="Recruitment", title="We're signing creators and athletes", slides=[
- dict(type="cover", label="Now signing", title="We need\n*UGC creators*\nand athletes.", sub="Brand deals in China, managed for you."),
+ dict(type="cover", label="Now signing", title="We need *UGC creators*\nand athletes.", size=96, chips=["**Paid brand partnerships**", "**Free hotel stays & products**", "**Niches**: travel, food, beauty, fashion", "**Athletes & fitness** creators", "**We handle** brands, contracts and payment"], sub="Brand deals in China, managed for you. DM your media kit."),
  dict(type="list", label="Who we're looking for", title="Is this *you?*", items=["UGC creators in travel, food, beauty, fashion", "Athletes and fitness creators", "Clean, consistent video quality", "Open to visiting China, or filming remotely"]),
  dict(type="split", join="&", top=dict(label="What you get", title="Deals", points=["Paid brand partnerships", "Hotel stays and products", "China content for your page"]),
    bottom=dict(title="Support", points=["We find and vet brands", "We handle language and contracts", "We keep payment on track"])),
@@ -271,7 +272,7 @@ dict(id="28-creator-recruit", slot="2026-11-29T20:00", pillar="Recruitment", tit
  CTA_CREATOR]),
 # ---------------- 29 ----------------
 dict(id="29-kuaishou-bilibili", slot="2026-11-30T11:00", pillar="Untapped market", title="The apps beyond Douyin", slides=[
- dict(type="cover", label="China · Platforms", title="Beyond Douyin:\n*two giants*\nyou've missed.", sub="Kuaishou and Bilibili, explained."),
+ dict(type="cover", label="China · Platforms", title="Beyond Douyin:\n*two giants* you've missed.", size=92, chips=["**Kuaishou**: **797M** monthly", "**+11.5%** in a year", "**Kuaishou**: **412M** daily · live shopping", "**Bilibili**: **371M** monthly", "**Bilibili**: **113 min**/day · long video & education"], src=S["ks"] + "; " + S["bili"].replace("Source: ", "")),
  dict(type="split", top=dict(label="Two more platforms", title="Kuaishou", points=["412M daily users", "797M monthly users", "Short video and live shopping"], best_label="Fits:", best="relatable, everyday content"),
    bottom=dict(title="Bilibili", points=["117M daily users", "371M monthly users", "113 minutes a day each"], best_label="Fits:", best="long videos and education"), src="Sources: Kuaishou & Bilibili Q2 2026 results"),
  dict(type="bars", label="Monthly users, millions, Q2 2026", title="Kuaishou is *growing*", max=797.3, bars=[["Kuaishou, Q2 2026", 797.3, "797M"], ["Kuaishou, Q2 2025", 714.8, "715M", "dim"]], note="Monthly users up **11.5%** in a year.", src=S["ks"]),
@@ -279,7 +280,7 @@ dict(id="29-kuaishou-bilibili", slot="2026-11-30T11:00", pillar="Untapped market
  CTA_CREATOR]),
 # ---------------- 30 ----------------
 dict(id="30-month-recap", slot="2026-11-30T20:00", pillar="Recap", title="China opportunities: the recap", slides=[
- dict(type="cover", label="Save this", title="China in\n*one post.*", sub="Our month of China opportunities, recapped."),
+ dict(type="cover", label="Save this", title="China in *one post.*", size=100, chips=["**1.125B** people online", "**714M** open Douyin daily", "**Jobs** up to **$5,000/mo**", "**3,500 RMB/mo** PhD stipend", "**Visa-free**: 57 countries, 10 days · **Hainan** 30 days"], sub="Jobs, scholarships, brand deals and travel, recapped.", src="Sources: CNNIC; Nomura via TechNode; Migaku 2026; CSC program pages; Shanghai & Beijing Gov't"),
  dict(type="tiles", label="The numbers to remember", title="China, *at a glance*", tiles=[["1.125B", "people online"], ["714M", "open Douyin daily"], ["57", "countries with 240-hr transit"], ["3,500", "RMB/month CSC PhD stipend"]], vsize=80,
    src="Sources: CNNIC; Nomura via TechNode; Shanghai Gov't; CSC program pages"),
  dict(type="flow", label="Your roadmap", title="Pick your *bridge*", steps=[dict(t="Creator or athlete?", d="brand deals in China"), dict(t="Want a career?", d="teaching and work permits"), dict(t="Want to study?", d="CSC, Schwarzman, Yenching"), dict(t="Just visiting?", d="240-hour transit and Hainan", hi=True)]),

@@ -104,6 +104,12 @@ body{{margin:0;width:{W}px;height:{H}px;background:var(--bg);font-family:'Manrop
 /* stat */
 .big{{font-family:'Cormorant',serif;font-weight:600;line-height:.85;color:var(--accent);letter-spacing:-.02em}}
 .money{{display:flex;align-items:baseline;white-space:nowrap;font-family:'Manrope',sans-serif;font-weight:800;line-height:.9;letter-spacing:-.04em;color:var(--accent)}}
+.chips{{display:grid;grid-template-columns:1fr 1fr;gap:16px}}
+.cover .money{{flex-wrap:wrap;white-space:normal;row-gap:6px}}
+.cover .money span{{white-space:nowrap}}
+.chip{{border:1.5px solid var(--line);background:var(--card);padding:20px 22px;font-size:28px;line-height:1.3;color:#DADFDC}}
+.chip b{{color:var(--accent);font-weight:800}}
+.chip.w{{grid-column:1 / -1}}
 .money span{{font-size:.26em;font-weight:700;letter-spacing:0;color:var(--ink);margin-left:14px}}
 /* cta */
 .pill{{display:inline-flex;align-items:center;gap:20px;background:var(--accent);color:#050505;padding:26px 42px;border-radius:999px;font-size:22px;font-weight:800;letter-spacing:.2em}}
@@ -146,8 +152,11 @@ def s_cover(s, i, n):
              f'<div class="h1" style="font-size:{size}px">{rich(s["title"])}</div>'
              + (f'<div class="money" style="font-size:{s.get("bsize", 210)}px">{rich(s["big"])}'
                 f'<span>{rich(s.get("unit", ""))}</span></div>' if s.get("big") else "")
-             + (f'<div class="sub">{rich(s["sub"])}</div>' if s.get("sub") else ""))
-    return frame(inner, i, n, s.get("src"))
+             + (f'<div class="sub">{rich(s["sub"])}</div>' if s.get("sub") else "")
+             + (f'<div class="chips">' + "".join(
+                 f'<div class="chip{" w" if (k == len(s["chips"]) - 1 and len(s["chips"]) % 2) else ""}">{rich(c)}</div>'
+                 for k, c in enumerate(s["chips"])) + '</div>' if s.get("chips") else ""))
+    return frame(inner, i, n, s.get("src")).replace('class="slide"', 'class="slide cover"', 1)
 
 
 def s_stat(s, i, n):
