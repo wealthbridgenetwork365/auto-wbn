@@ -11,3 +11,4 @@
 | 2026-11-09 | Mon 2026-11-09 20:00 | Best cities | Carousel | Guangzhou vs Shenzhen | 17958578145258911 |
 | 2026-11-11 | Wed 2026-11-11 11:00 | Untapped market | Carousel | China's $7 trillion retail market | 18095661977207840 |
 | 2026-11-11 | Wed 2026-11-11 20:00 | Travel | Carousel | Paying in China with your own card | 18105233147452600 |
+| 2026-11-13 | Fri 2026-11-13 11:00 | Scholarships | Carousel | Get paid to study in China | 17969006805202672 |
