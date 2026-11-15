@@ -13,3 +13,4 @@
 | 2026-11-11 | Wed 2026-11-11 20:00 | Travel | Carousel | Paying in China with your own card | 18105233147452600 |
 | 2026-11-13 | Fri 2026-11-13 11:00 | Scholarships | Carousel | Get paid to study in China | 17969006805202672 |
 | 2026-11-13 | Fri 2026-11-13 20:00 | Brand deals | Carousel | UGC creator vs influencer | 18135486985755242 |
+| 2026-11-15 | Sun 2026-11-15 11:00 | Travel | Carousel | China's visa-free travel boom | 17957046441320460 |
