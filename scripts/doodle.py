@@ -390,3 +390,17 @@ def handshake_hands(x, y, s=1.0):
     b = _p("M-180,-60 L-80,-60 L-20,-100 L40,-60 L-20,-20 L-80,-40", 10, fill="#fff")
     b += _p("M180,-60 L80,-60 L30,-20 L0,-40 M80,-60 L20,-110", 10)
     return _g(x, y, s, b)
+
+
+def follow_phone(x, y, s=1.0, handle="@wealthbridgenetwork"):
+    b = _p("M-130,0 L-130,-400 Q-130,-430 -100,-430 L100,-430 Q130,-430 130,-400 L130,-30 Q130,0 100,0 Z", 11, fill="#fff")
+    b += _c(0, -330, 44, 9) + _p("M-20,-318 L20,-318 M-20,-318 L-20,-344 L20,-344 L20,-318", 0)
+    b += f'<text x="0" y="-252" font-family="Poppins" font-weight="700" font-size="17" fill="{INK}" text-anchor="middle">{handle}</text>'
+    b += f'<rect x="-92" y="-216" width="184" height="62" rx="16" fill="{GREEN}" stroke="{INK}" stroke-width="8"/>'
+    b += f'<text x="0" y="-173" font-family="Poppins" font-weight="700" font-size="34" fill="#fff" text-anchor="middle">Follow</text>'
+    b += _p("M-90,-120 L90,-120 M-90,-86 L50,-86 M-90,-52 L70,-52", 8, color="#BBBBBB")
+    return _g(x, y, s, b)
+
+
+def wbn_mark(x, y, s=1.0):
+    return _g(x, y, s, _c(0, -330, 30, 0, fill="#ddd"))
