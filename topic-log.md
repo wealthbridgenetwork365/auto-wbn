@@ -18,3 +18,4 @@
 | 2026-11-16 | Mon 2026-11-16 09:45 | Sourcing | Carousel | Stop buying from China like this | 18104009213544281 |
 | 2026-11-16 | Mon 2026-11-16 11:00 | Best cities | Carousel | Shanghai vs Beijing | 18156274114521340 |
 | 2026-11-16 | Mon 2026-11-16 20:00 | Untapped market | Carousel | Which Chinese app fits your content | 18019958204745664 |
+| 2026-11-17 | Tue 2026-11-17 13:30 | Make money | Carousel | 7 ways to make money in China | 18117304514613508 |
