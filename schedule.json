@@ -638,7 +638,7 @@
       "media_id": null
     },
     {
-      "slot_et": "2026-11-18T13:30",
+      "slot_et": "2026-11-18T11:45",
       "id": "38-supplier-struggles",
       "title": "Why your China supplier keeps failing you",
       "pillar": "Sourcing",
@@ -651,10 +651,11 @@
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/38-supplier-struggles/slide-05.jpg"
       ],
       "status": "scheduled",
-      "media_id": null
+      "media_id": null,
+      "series": "china-stories"
     },
     {
-      "slot_et": "2026-11-19T13:30",
+      "slot_et": "2026-11-19T11:45",
       "id": "39-visas",
       "title": "Do you even need a visa for China?",
       "pillar": "Travel",
@@ -667,10 +668,11 @@
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/39-visas/slide-05.jpg"
       ],
       "status": "scheduled",
-      "media_id": null
+      "media_id": null,
+      "series": "china-stories"
     },
     {
-      "slot_et": "2026-11-20T13:30",
+      "slot_et": "2026-11-20T11:45",
       "id": "40-not-just-alibaba",
       "title": "Stop sourcing only on Alibaba",
       "pillar": "Sourcing",
@@ -683,10 +685,11 @@
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/40-not-just-alibaba/slide-05.jpg"
       ],
       "status": "scheduled",
-      "media_id": null
+      "media_id": null,
+      "series": "china-stories"
     },
     {
-      "slot_et": "2026-11-21T13:30",
+      "slot_et": "2026-11-21T11:45",
       "id": "41-tier1-vs-tier2",
       "title": "Tier 1 vs Tier 2 China",
       "pillar": "Best cities",
@@ -699,10 +702,11 @@
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/41-tier1-vs-tier2/slide-05.jpg"
       ],
       "status": "scheduled",
-      "media_id": null
+      "media_id": null,
+      "series": "china-stories"
     },
     {
-      "slot_et": "2026-11-22T13:30",
+      "slot_et": "2026-11-22T11:45",
       "id": "42-how-to-source",
       "title": "How to source from China the right way",
       "pillar": "Sourcing",
@@ -715,10 +719,11 @@
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/42-how-to-source/slide-05.jpg"
       ],
       "status": "scheduled",
-      "media_id": null
+      "media_id": null,
+      "series": "china-stories"
     },
     {
-      "slot_et": "2026-11-23T13:30",
+      "slot_et": "2026-11-23T11:45",
       "id": "43-cny-shutdown",
       "title": "China is about to shut down",
       "pillar": "Sourcing",
@@ -731,10 +736,11 @@
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/43-cny-shutdown/slide-05.jpg"
       ],
       "status": "scheduled",
-      "media_id": null
+      "media_id": null,
+      "series": "china-stories"
     },
     {
-      "slot_et": "2026-11-24T13:30",
+      "slot_et": "2026-11-24T11:45",
       "id": "44-student-money",
       "title": "Can you make money as a student in China?",
       "pillar": "Scholarships",
@@ -747,10 +753,11 @@
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/44-student-money/slide-05.jpg"
       ],
       "status": "scheduled",
-      "media_id": null
+      "media_id": null,
+      "series": "china-stories"
     },
     {
-      "slot_et": "2026-11-25T13:30",
+      "slot_et": "2026-11-25T11:45",
       "id": "45-100k-sourcing",
       "title": "How to make $100K in one month from sourcing",
       "pillar": "Make money",
@@ -763,10 +770,11 @@
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/45-100k-sourcing/slide-05.jpg"
       ],
       "status": "scheduled",
-      "media_id": null
+      "media_id": null,
+      "series": "china-stories"
     },
     {
-      "slot_et": "2026-11-26T13:30",
+      "slot_et": "2026-11-26T11:45",
       "id": "46-clothing-brand",
       "title": "Starting a clothing brand? Pick the right city",
       "pillar": "Sourcing",
@@ -779,10 +787,11 @@
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/46-clothing-brand/slide-05.jpg"
       ],
       "status": "scheduled",
-      "media_id": null
+      "media_id": null,
+      "series": "china-stories"
     },
     {
-      "slot_et": "2026-11-27T13:30",
+      "slot_et": "2026-11-27T11:45",
       "id": "47-tea-scam",
       "title": "The friendly stranger who cost them $300",
       "pillar": "Travel",
@@ -795,7 +804,8 @@
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/47-tea-scam/slide-05.jpg"
       ],
       "status": "scheduled",
-      "media_id": null
+      "media_id": null,
+      "series": "china-stories"
     }
   ]
 }
