@@ -518,8 +518,9 @@
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/23-trip-checklist/slide-04.jpg",
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/23-trip-checklist/slide-05.jpg"
       ],
-      "status": "scheduled",
-      "media_id": null
+      "status": "hold",
+      "media_id": null,
+      "hold_reason": "User asked 2026-11-18 to replace Nov 18-27 with 10 new storytelling posts"
     },
     {
       "slot_et": "2026-11-25T20:00",
@@ -534,8 +535,9 @@
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/24-schwarzman-yenching/slide-04.jpg",
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/24-schwarzman-yenching/slide-05.jpg"
       ],
-      "status": "scheduled",
-      "media_id": null
+      "status": "hold",
+      "media_id": null,
+      "hold_reason": "User asked 2026-11-18 to replace Nov 18-27 with 10 new storytelling posts"
     },
     {
       "slot_et": "2026-11-27T11:00",
@@ -550,8 +552,9 @@
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/25-why-now/slide-04.jpg",
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/25-why-now/slide-05.jpg"
       ],
-      "status": "scheduled",
-      "media_id": null
+      "status": "hold",
+      "media_id": null,
+      "hold_reason": "User asked 2026-11-18 to replace Nov 18-27 with 10 new storytelling posts"
     },
     {
       "slot_et": "2026-11-27T20:00",
@@ -566,8 +569,9 @@
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/26-confucius/slide-04.jpg",
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/26-confucius/slide-05.jpg"
       ],
-      "status": "scheduled",
-      "media_id": null
+      "status": "hold",
+      "media_id": null,
+      "hold_reason": "User asked 2026-11-18 to replace Nov 18-27 with 10 new storytelling posts"
     },
     {
       "slot_et": "2026-11-29T11:00",

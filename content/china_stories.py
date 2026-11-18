@@ -19,6 +19,24 @@ CNY = "Sources: China Survival Kit, Nov 2026; DHL post-CNY guide, 2026"
 STUDY = "Source: Beijing Municipal Gov't, residence permit rules (Exit-Entry Regulations, Art. 22)"
 
 
+def chat(x, y, s, msgs, w=520, h=600):
+    """Phone with chat bubbles. msgs: list of (side, text) with side 'l' (client) or 'r' (you)."""
+    b = _p(f"M{-w/2},0 L{-w/2},{-h} Q{-w/2},{-h-30} {-w/2+30},{-h-30} L{w/2-30},{-h-30} Q{w/2},{-h-30} {w/2},{-h} L{w/2},-30 Q{w/2},0 {w/2-30},0 Z", 11, fill="#fff")
+    b += _p(f"M{-w/2},{-h+50} L{w/2},{-h+50}", 6, color="#BBBBBB")
+    yy = -h + 80
+    for side, txt in msgs:
+        lines = txt.split("\n")
+        bh = 26 + 42 * len(lines)
+        bw = w - 100
+        bx = -w/2 + 20 if side == "l" else -w/2 + 80
+        fill = "#fff" if side == "l" else "#DFF7EA"
+        b += f'<rect x="{bx}" y="{yy}" width="{bw}" height="{bh}" rx="22" fill="{fill}" stroke="#111" stroke-width="6"/>'
+        for i, ln in enumerate(lines):
+            b += _t(bx + 22, yy + 50 + 42 * i, ln, 32, 600, anchor="start")
+        yy += bh + 22
+    return f'<g transform="translate({x},{y}) scale({s})">{b}</g>'
+
+
 def caption(hook, body, extra_tags=""):
     return f"{hook}\n\n{body}\n\nFollow @wealthbridgenetwork for more China tips.\n\n{SIGN}\n\n{TAGS}{(' ' + extra_tags) if extra_tags else ''}"
 
@@ -178,5 +196,69 @@ dict(id="44-student-money", pillar="Scholarships", title="Can you make money as 
       scene=ground(60, 840, 320) + board(220, 320, 0.7, "CSC") + figure(440, 320, 0.75, "wave", "happy") + tower(700, 320, 0.5), vh=340,
       src="Check your school's international student office before taking any work"),
  cta(),
+]),
+# ================================================================ 8 · $100K SOURCING
+dict(id="45-100k-sourcing", pillar="Make money", title="How to make $100K in one month from sourcing",
+ caption=caption("How to make $100K in one month from sourcing. Here's the math.",
+                 "One product, three clients: 5,000 pieces, 10,000 pieces, and a one-year contract, each with a $2 margin per piece. Example numbers to show how sourcing deals stack up, not a promise of earnings. Margin isn't profit: samples, inspections and shipping all cost money.",
+                 "#sourcing #makemoneyonline #business #importexport"),
+ slides=[
+ dict(hook="How to make\n*$100K* in\none month\nfrom sourcing.", hs=116, swipe=True, kick="One product. Three clients. Here's the math.",
+      scene=ground(60, 840, 360) + factory(170, 360, 0.55) + arrow(270, 240, 360, 240, -60) + figure(460, 360, 0.75, "up", "grin") + moneybag(640, 360, 0.7), vh=470),
+ dict(head="Client 1: 5,000 bottles.", text=["Factory price *$3.20.* You sell at *$5.20.* That's *$2 a piece.*", "5,000 x $2 = *$10,000*"], fs=46,
+      scene=chat(450, 500, 1.0, [("l", "Can you get 5,000\ncustom water bottles?"), ("r", "Yes. $5.20 each,\nlogo included."), ("l", "Deal. Send the\ninvoice.")], 600, 470), vh=510),
+ dict(head="Client 2 heard about it.", text=["Same bottle. Same factory. *Double the order.*", "10,000 x $2 = *$20,000*"], fs=48,
+      scene=chat(450, 480, 1.0, [("l", "My friend says you\nsource bottles?"), ("r", "Yes. What quantity?"), ("l", "10,000. Can you do\nit by March?")], 600, 450), vh=490),
+ dict(head="Client 3 wanted a whole year.", items=["3,000 bottles a month x 12 months x $2 = *$72,000*",
+                                                   "$10,000 + $20,000 + $72,000 = *$102,000* booked in one month"], **{"is": 44},
+      text=["*Margin isn't profit:* samples, inspections and shipping risk all cost money."], fs=36,
+      scene=ground(60, 840, 300) + box(150, 300, 0.6) + box(260, 300, 0.6) + box(205, 210, 0.6) + handshake_hands(500, 230, 0.8) + figure(780, 300, 0.7, "up", "grin", flip=True), vh=320,
+      src="Example numbers to show the math. Not a promise of earnings."),
+ cta("Want to learn sourcing?"),
+]),
+# ================================================================ 9 · CLOTHING BRAND
+dict(id="46-clothing-brand", pillar="Sourcing", title="Starting a clothing brand? Pick the right city",
+ caption=caption("Starting a clothing brand? The city you pick decides the factory you get.",
+                 "Xintang for denim, Ningbo for menswear, Zhili for kids' clothing, Guangzhou and Shenzhen for women's fashion, and what every factory needs from you before they can quote. Save this before you message a factory.",
+                 "#clothingbrand #fashionbusiness #streetwear #clothingmanufacturer"),
+ slides=[
+ dict(hook="Starting a\nclothing brand?\n*Pick the*\n*right city.*", hs=112, swipe=True, kick="Sam almost picked the wrong factory.",
+      scene=ground(60, 840, 380) + factory(220, 380, 0.7) + pin(470, 380, 0.75, G) + figure(700, 380, 0.85, "think", "flat", flip=True, confused=True), vh=400),
+ dict(text=["Sam wanted to make hoodies and jeans. He messaged the first factory he found.",
+            "Their speciality? *Kids' clothes.*", "In China, *every clothing city has a speciality.*"], fs=48,
+      scene=ground(60, 840, 340) + laptop(200, 340, 0.7, "HOODIES?") + arrow(330, 220, 440, 220, -60) + factory(570, 340, 0.55) + figure(780, 340, 0.75, "shrug", "wow", flip=True), vh=360),
+ dict(head="Where the factories are:", items=["**Guangzhou & Shenzhen**: women's fashion", "**Xintang**: *60%+* of China's denim",
+                                              "**Ningbo**: menswear", "**Zhili**: kids' clothing (*14,000+* companies)",
+                                              "**Puning**: T-shirts", "**Pinghu**: about *80%* of China's down jackets"], **{"is": 40},
+      scene=pin(130, 170, 0.5) + pin(290, 170, 0.5, G) + pin(450, 170, 0.5) + pin(610, 170, 0.5) + pin(770, 170, 0.5, G), vh=180,
+      src="Source: JingSourcing, China clothing manufacturers guide"),
+ dict(head="What the factory needs from you:", items=["**Tech pack**: sketches, measurements, stitching",
+                                                     "**Sizes** and quantities per size and colour",
+                                                     "**Fabric**: type, weight and a swatch or reference",
+                                                     "**Logo and label files** for prints, tags, packaging",
+                                                     "**Target price** and delivery date"], **{"is": 40},
+      text=["Then: *sample, fix, then bulk.*"], fs=40,
+      scene=ground(60, 840, 230) + board(180, 230, 0.48, "SPEC") + tag(400, 230, 0.6, "M") + box(580, 230, 0.5) + check(580, 60, 0.7, True) + figure(790, 230, 0.55, "up", "grin", flip=True), vh=250),
+ cta(),
+]),
+# ================================================================ 10 · TEA SCAM
+dict(id="47-tea-scam", pillar="Travel", title="The friendly stranger who cost them $300",
+ caption=caption("The friendly stranger who cost two tourists about $300 in China.",
+                 "The tea house scam: a friendly 'student' with perfect English invites you to a tea ceremony, then the bill arrives. Here's how it works and how to avoid it. Send this to a friend going to China.",
+                 "#chinatravel #travelscams #shanghai #traveltips"),
+ slides=[
+ dict(hook="The friendly\nstranger who\n*cost them*\n*$300.*", hs=116, swipe=True, kick="Don't fall for this in China.",
+      scene=ground(60, 840, 380) + figure(240, 380, 0.85, "wave", "grin") + figure(480, 380, 0.85, "down", "happy", flip=True) + figure(620, 380, 0.85, "down", "happy", flip=True) + tag(780, 300, 0.6, "$$$"), vh=480),
+ dict(text=["Two tourists in Shanghai meet a friendly \"student\". Perfect English. Great chat.",
+            "*\"Want to try a real tea ceremony?\"*"], fs=50,
+      scene=ground(60, 840, 360) + figure(220, 360, 0.85, "point", "grin") + bubble(470, 110, 0.85, "Tea? My treat!", 340, "left") + figure(700, 360, 0.85, "down", "happy", flip=True), vh=380),
+ dict(text=["The tea is nice. Then the bill comes:", "*2,114 yuan.* About *$300*, for a few cups of tea.",
+            "The \"student\" works with the tea house."], fs=50,
+      scene=ground(60, 840, 360) + board(230, 360, 0.7, "¥2,114") + figure(560, 360, 0.85, "shrug", "wow", sweat=True) + figure(730, 360, 0.85, "shrug", "sad", flip=True), vh=380,
+      src="Source: Trans-Siberian Travel Company, tea house scam report"),
+ dict(head="How to avoid it:", items=["Say no when a stranger invites you somewhere", "Pick tea houses and bars *you* found yourself",
+                                      "Ask for the price list *before* you order", "If you're pressured to pay, call *110* (police)"], **{"is": 44},
+      scene=ground(60, 840, 300) + figure(180, 300, 0.7, "hips", "flat") + check(320, 120, 1.0, False) + phone(520, 300, 0.7, "110") + figure(760, 300, 0.7, "wave", "grin", flip=True), vh=320),
+ cta("Going to China soon?"),
 ]),
 ]
