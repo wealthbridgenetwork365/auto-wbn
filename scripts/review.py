@@ -1,6 +1,15 @@
 """Build the review/calendar page for a month of posts: python3 scripts/review.py content/posts.py out/"""
 import importlib.util, datetime, html, calendar, json, sys
 spec=importlib.util.spec_from_file_location("c",sys.argv[1]); m=importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
+# merge schedule.json: drop held/missed posts, add scheduled posts that aren't in the content module
+_sched=json.load(open(__import__("pathlib").Path(__file__).resolve().parent.parent/"schedule.json"))["posts"]
+_st={q["id"]:q for q in _sched}
+m.POSTS=[p for p in m.POSTS if _st.get(p["id"],{}).get("status") not in ("hold","missed")]
+_have={p["id"] for p in m.POSTS}
+for q in _sched:
+    if q["id"] not in _have and q["status"] not in ("hold","missed"):
+        m.POSTS.append(dict(id=q["id"],slot=q["slot_et"],title=q["title"],pillar=q.get("pillar",""),slides=q["image_urls"]))
+m.POSTS.sort(key=lambda p:p["slot"])
 out=sys.argv[2]; posted=set(json.loads(sys.argv[3])) if len(sys.argv)>3 else set()
 cap="Building Bridges | Creating Access\n\n#china #explore #chinatravel #Guangzhou"
 cards=[]; by={}
@@ -67,9 +76,9 @@ h2{{font-family:var(--display);font-weight:600;font-size:28px;margin:2px 0 0;lin
 <main class="wrap">
 <div class="eyebrow">Wealth Bridge Network · Content calendar</div>
 <h1>November <em>posting plan</em></h1>
-<p class="lede">Every scheduled carousel for @wealthbridgenetwork, posting Mon, Wed, Fri and Sun at 11 AM and 8 PM Eastern. Tap a post in the calendar to see its slides. Every stat carries its source on the slide.</p>
-<div class="facts"><div><b>{n}</b><span>posts</span></div><div><b>{ns}</b><span>slides</span></div><div><b>8</b><span>posts a week</span></div><div><b>Nov 6–30</b><span>schedule</span></div></div>
-<section class="cal" aria-label="November 2026 posting calendar"><div class="calhead"><h2 class="ch">November 2026</h2><span class="legend">Mon · Wed · Fri · Sun · 11 AM and 8 PM ET</span></div>
+<p class="lede">Every scheduled carousel for @wealthbridgenetwork, with posting times in Eastern time. Tap a post in the calendar to see its slides. Every stat carries its source on the slide.</p>
+<div class="facts"><div><b>{n}</b><span>posts</span></div><div><b>{ns}</b><span>slides</span></div><div><b>Nov 6–30</b><span>schedule</span></div></div>
+<section class="cal" aria-label="November 2026 posting calendar"><div class="calhead"><h2 class="ch">November 2026</h2><span class="legend">Times in Eastern (ET)</span></div>
 <div class="grid">{"".join(f'<div class="wd">{w}</div>' for w in ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"])}{"".join(cells)}</div></section>
 <div class="cap"><small>CAPTION ON EVERY POST</small>{html.escape(cap)}</div>
 {"".join(cards)}

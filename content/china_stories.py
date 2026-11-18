@@ -118,7 +118,7 @@ dict(id="40-not-just-alibaba", pillar="Sourcing", title="Stop sourcing only on A
  cta(),
 ]),
 # ================================================================ 4 · TIERS
-dict(id="41-tier1-vs-tier2", pillar="Best cities", title="Tier 1 or new Tier 1 China?",
+dict(id="41-tier1-vs-tier2", pillar="Best cities", title="Tier 1 vs Tier 2 China",
  caption=caption("Tier 1 or 'new Tier 1' China? Most people pick the wrong one.",
                  "China has 4 first-tier cities and 15 'new first-tier' cities (what most people call Tier 2). Here's who each one is for: career, cost, or standing out.",
                  "#shanghai #chengdu #hangzhou #movetochina"),
