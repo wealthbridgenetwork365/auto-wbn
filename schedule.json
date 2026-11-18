@@ -292,8 +292,9 @@
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/15-hainan/slide-04.jpg",
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/15-hainan/slide-05.jpg"
       ],
-      "status": "scheduled",
-      "media_id": null
+      "status": "hold",
+      "media_id": null,
+      "hold_reason": "User asked 2026-11-18 to replace next 7 days with new storytelling topics"
     },
     {
       "slot_et": "2026-11-18T13:30",
@@ -309,8 +310,9 @@
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/33-company-struggles/slide-04.jpg",
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/33-company-struggles/slide-05.jpg"
       ],
-      "status": "scheduled",
-      "media_id": null
+      "status": "hold",
+      "media_id": null,
+      "hold_reason": "User asked 2026-11-18 to replace next 7 days with new storytelling topics"
     },
     {
       "slot_et": "2026-11-18T20:00",
@@ -325,8 +327,9 @@
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/16-teach-reqs/slide-04.jpg",
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/16-teach-reqs/slide-05.jpg"
       ],
-      "status": "scheduled",
-      "media_id": null
+      "status": "hold",
+      "media_id": null,
+      "hold_reason": "User asked 2026-11-18 to replace next 7 days with new storytelling topics"
     },
     {
       "slot_et": "2026-11-19T13:30",
@@ -342,8 +345,9 @@
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/34-china-cities/slide-04.jpg",
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/34-china-cities/slide-05.jpg"
       ],
-      "status": "scheduled",
-      "media_id": null
+      "status": "hold",
+      "media_id": null,
+      "hold_reason": "User asked 2026-11-18 to replace next 7 days with new storytelling topics"
     },
     {
       "slot_et": "2026-11-20T11:00",
@@ -358,8 +362,9 @@
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/17-deal-timeline/slide-04.jpg",
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/17-deal-timeline/slide-05.jpg"
       ],
-      "status": "scheduled",
-      "media_id": null
+      "status": "hold",
+      "media_id": null,
+      "hold_reason": "User asked 2026-11-18 to replace next 7 days with new storytelling topics"
     },
     {
       "slot_et": "2026-11-20T13:30",
@@ -375,8 +380,9 @@
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/35-product-hometowns/slide-04.jpg",
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/35-product-hometowns/slide-05.jpg"
       ],
-      "status": "scheduled",
-      "media_id": null
+      "status": "hold",
+      "media_id": null,
+      "hold_reason": "User asked 2026-11-18 to replace next 7 days with new storytelling topics"
     },
     {
       "slot_et": "2026-11-20T20:00",
@@ -391,8 +397,9 @@
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/18-chengdu/slide-04.jpg",
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/18-chengdu/slide-05.jpg"
       ],
-      "status": "scheduled",
-      "media_id": null
+      "status": "hold",
+      "media_id": null,
+      "hold_reason": "User asked 2026-11-18 to replace next 7 days with new storytelling topics"
     },
     {
       "slot_et": "2026-11-21T13:30",
@@ -408,8 +415,9 @@
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/36-first-trip-apps/slide-04.jpg",
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/36-first-trip-apps/slide-05.jpg"
       ],
-      "status": "scheduled",
-      "media_id": null
+      "status": "hold",
+      "media_id": null,
+      "hold_reason": "User asked 2026-11-18 to replace next 7 days with new storytelling topics"
     },
     {
       "slot_et": "2026-11-22T11:00",
@@ -424,8 +432,9 @@
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/19-online-shoppers/slide-04.jpg",
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/19-online-shoppers/slide-05.jpg"
       ],
-      "status": "scheduled",
-      "media_id": null
+      "status": "hold",
+      "media_id": null,
+      "hold_reason": "User asked 2026-11-18 to replace next 7 days with new storytelling topics"
     },
     {
       "slot_et": "2026-11-22T13:30",
@@ -441,8 +450,9 @@
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/37-brand-deals/slide-04.jpg",
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/37-brand-deals/slide-05.jpg"
       ],
-      "status": "scheduled",
-      "media_id": null
+      "status": "hold",
+      "media_id": null,
+      "hold_reason": "User asked 2026-11-18 to replace next 7 days with new storytelling topics"
     },
     {
       "slot_et": "2026-11-22T20:00",
@@ -457,8 +467,9 @@
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/20-contract-flags/slide-04.jpg",
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/20-contract-flags/slide-05.jpg"
       ],
-      "status": "scheduled",
-      "media_id": null
+      "status": "hold",
+      "media_id": null,
+      "hold_reason": "User asked 2026-11-18 to replace next 7 days with new storytelling topics"
     },
     {
       "slot_et": "2026-11-23T11:00",
@@ -473,8 +484,9 @@
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/21-media-kit/slide-04.jpg",
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/21-media-kit/slide-05.jpg"
       ],
-      "status": "scheduled",
-      "media_id": null
+      "status": "hold",
+      "media_id": null,
+      "hold_reason": "User asked 2026-11-18 to replace next 7 days with new storytelling topics"
     },
     {
       "slot_et": "2026-11-23T20:00",
@@ -489,8 +501,9 @@
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/22-canton-fair/slide-04.jpg",
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/22-canton-fair/slide-05.jpg"
       ],
-      "status": "scheduled",
-      "media_id": null
+      "status": "hold",
+      "media_id": null,
+      "hold_reason": "User asked 2026-11-18 to replace next 7 days with new storytelling topics"
     },
     {
       "slot_et": "2026-11-25T11:00",
