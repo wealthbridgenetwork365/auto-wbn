@@ -685,9 +685,10 @@
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/40-not-just-alibaba/slide-04.jpg",
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/40-not-just-alibaba/slide-05.jpg"
       ],
-      "status": "scheduled",
-      "media_id": null,
-      "series": "china-stories"
+      "status": "posted",
+      "media_id": "18112508960228093",
+      "series": "china-stories",
+      "posted_at": "2026-11-21T01:12:36-0500"
     },
     {
       "slot_et": "2026-11-21T11:45",
