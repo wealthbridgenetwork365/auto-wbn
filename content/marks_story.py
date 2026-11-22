@@ -110,8 +110,8 @@ def caption():
     return ("He was saving $300 a month. Now he saves $2,000+.\n\n"
             "Degree. Debt. 40+ hour weeks. Out of shape, paycheck to paycheck, no free time. Then an email from an agent in China: "
             "an English teaching job at $3,500 a month with housing covered. He took the flight. Now he saves $20K+ a year, and he's still paid in the summer.\n\n"
-            "This is the bridge to freedom.\n\n"
-            "(Illustrative story based on typical teaching contracts. Pay and benefits vary by employer.)\n\n"
+            "This is the bridge to freedom. There are tons of global opportunities that could change your life. Join our community today: link in bio.\n\n"
+            "(Not financial advice. Illustrative story based on typical teaching contracts. Pay and benefits vary by employer.)\n\n"
             f"Follow @wealthbridgenetwork for more China opportunities.\n\n{SIGN}\n\n{TAGS} "
             "#teachinchina #teachabroad #expatlife #financialfreedom #debtfree #careerchange")
 
@@ -158,9 +158,11 @@ dict(id="54-marks-story", pillar="Job offers", title="Mark's story: the bridge t
       + lbl(680, 640, "$20K+ a year", GREEN, 36, 800) + lbl(680, 700, "$3,500/mo · housing covered", INK, 26, 600), vh=760,
       src=NOTE),
  # 8 · SUMMER + CLOSE
- dict(text=["Summer break? *Still paid.* Plus a bonus.", "This is the *bridge to freedom.*"], fs=54,
+ dict(text=["Summer break? *Still paid.* Plus a bonus. This is the *bridge to freedom.*",
+            "This is not financial advice, but there are *tons of global opportunities* that could change your life.",
+            "*Join our community today. Link in bio.*"], fs=44,
       scene=ground(60, 840, 560) + sun(110, 90, 0.7) + palm(110, 560, 0.85) + umbrella(330, 560, 0.75) + lounger(330, 560, 0.9)
       + payslip(680, 470, 0.82, rows=[("Paid holiday", "+$3,500"), ("Bonus", "Paid ✓")], total=("July", "$3,500+")) + plus(520, 150, 0.8), vh=580,
-      src="Illustrative story. Paid holidays and bonuses depend on the contract"),
+      src="Not financial advice. Illustrative story; paid holidays and bonuses depend on the contract"),
 ]),
 ]
