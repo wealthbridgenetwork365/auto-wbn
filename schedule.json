@@ -586,8 +586,9 @@
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/27-hz-wuhan/slide-04.jpg",
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/27-hz-wuhan/slide-05.jpg"
       ],
-      "status": "scheduled",
-      "media_id": null
+      "status": "hold",
+      "media_id": null,
+      "hold_reason": "User asked 2026-11-22: only 42, 45, 46 should post; new Content Creation posts coming"
     },
     {
       "slot_et": "2026-11-29T20:00",
@@ -602,8 +603,9 @@
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/28-creator-recruit/slide-04.jpg",
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/28-creator-recruit/slide-05.jpg"
       ],
-      "status": "scheduled",
-      "media_id": null
+      "status": "hold",
+      "media_id": null,
+      "hold_reason": "User asked 2026-11-22: only 42, 45, 46 should post; new Content Creation posts coming"
     },
     {
       "slot_et": "2026-11-30T11:00",
@@ -618,8 +620,9 @@
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/29-kuaishou-bilibili/slide-04.jpg",
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/29-kuaishou-bilibili/slide-05.jpg"
       ],
-      "status": "scheduled",
-      "media_id": null
+      "status": "hold",
+      "media_id": null,
+      "hold_reason": "User asked 2026-11-22: only 42, 45, 46 should post; new Content Creation posts coming"
     },
     {
       "slot_et": "2026-11-30T20:00",
@@ -634,8 +637,9 @@
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/30-month-recap/slide-04.jpg",
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/30-month-recap/slide-05.jpg"
       ],
-      "status": "scheduled",
-      "media_id": null
+      "status": "hold",
+      "media_id": null,
+      "hold_reason": "User asked 2026-11-22: only 42, 45, 46 should post; new Content Creation posts coming"
     },
     {
       "slot_et": "2026-11-18T11:45",
@@ -668,9 +672,10 @@
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/39-visas/slide-04.jpg",
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/39-visas/slide-05.jpg"
       ],
-      "status": "scheduled",
+      "status": "hold",
       "media_id": null,
-      "series": "china-stories"
+      "series": "china-stories",
+      "hold_reason": "User asked 2026-11-22: only 42, 45, 46 should post; new Content Creation posts coming"
     },
     {
       "slot_et": "2026-11-20T11:45",
@@ -703,9 +708,10 @@
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/41-tier1-vs-tier2/slide-04.jpg",
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/41-tier1-vs-tier2/slide-05.jpg"
       ],
-      "status": "scheduled",
+      "status": "hold",
       "media_id": null,
-      "series": "china-stories"
+      "series": "china-stories",
+      "hold_reason": "User asked 2026-11-22: only 42, 45, 46 should post; new Content Creation posts coming"
     },
     {
       "slot_et": "2026-11-22T11:45",
@@ -737,9 +743,10 @@
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/43-cny-shutdown/slide-04.jpg",
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/43-cny-shutdown/slide-05.jpg"
       ],
-      "status": "scheduled",
+      "status": "hold",
       "media_id": null,
-      "series": "china-stories"
+      "series": "china-stories",
+      "hold_reason": "User asked 2026-11-22: only 42, 45, 46 should post; new Content Creation posts coming"
     },
     {
       "slot_et": "2026-11-24T11:45",
@@ -754,9 +761,10 @@
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/44-student-money/slide-04.jpg",
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/44-student-money/slide-05.jpg"
       ],
-      "status": "scheduled",
+      "status": "hold",
       "media_id": null,
-      "series": "china-stories"
+      "series": "china-stories",
+      "hold_reason": "User asked 2026-11-22: only 42, 45, 46 should post; new Content Creation posts coming"
     },
     {
       "slot_et": "2026-11-25T11:45",
@@ -805,9 +813,10 @@
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/47-tea-scam/slide-04.jpg",
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/47-tea-scam/slide-05.jpg"
       ],
-      "status": "scheduled",
+      "status": "hold",
       "media_id": null,
-      "series": "china-stories"
+      "series": "china-stories",
+      "hold_reason": "User asked 2026-11-22: only 42, 45, 46 should post; new Content Creation posts coming"
     }
   ]
 }
