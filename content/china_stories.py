@@ -200,7 +200,7 @@ dict(id="44-student-money", pillar="Scholarships", title="Can you make money as 
 # ================================================================ 8 · $100K SOURCING
 dict(id="45-100k-sourcing", pillar="Make money", title="How to make $100K in one month from sourcing",
  caption=caption("How to make $100K in one month from sourcing. Here's the math.",
-                 "One product, three clients: 5,000 pieces, 10,000 pieces, and a one-year contract, each with a $2 margin per piece. Example numbers to show how sourcing deals stack up, not a promise of earnings. Margin isn't profit: samples, inspections and shipping all cost money.",
+                 "One product, three clients: 5,000 pieces, 10,000 pieces, and a one-year contract, each with a $2 margin per piece. Then close it right: take a deposit, approve a sample, pay the factory's balance only after QC, and handle shipping and customs. Every step you manage, from inspections to logistics, is extra you can charge for. Example numbers to show how sourcing deals stack up, not a promise of earnings. Margin isn't profit: samples, inspections and shipping all cost money.",
                  "#sourcing #makemoneyonline #business #importexport"),
  slides=[
  dict(hook="How to make\n*$100K* in\none month\nfrom sourcing.", hs=116, swipe=True, kick="One product. Three clients. Here's the math.",
@@ -214,6 +214,19 @@ dict(id="45-100k-sourcing", pillar="Make money", title="How to make $100K in one
       text=["*Margin isn't profit:* samples, inspections and shipping risk all cost money."], fs=36,
       scene=ground(60, 840, 300) + box(150, 300, 0.6) + box(260, 300, 0.6) + box(205, 210, 0.6) + handshake_hands(500, 230, 0.8) + figure(780, 300, 0.7, "up", "grin", flip=True), vh=320,
       src="Example numbers to show the math. Not a promise of earnings."),
+ dict(head="How you close the order:", items=["Client pays you a *deposit* before you order",
+                                             "Factory makes a *sample*. Client approves it",
+                                             "Sign a contract: price, specs, deadline",
+                                             "Pay the factory a deposit, *balance after QC*",
+                                             "*QC inspection* before anything ships",
+                                             "Book *shipping and customs* to the client"], **{"is": 40},
+      scene=ground(60, 840, 240) + moneybag(140, 240, 0.45) + arrow(220, 150, 300, 150, -40) + box(380, 240, 0.5) + magnifier(520, 200, 0.6) + check(520, 60, 0.6, True) + ship(740, 240, 0.55), vh=260),
+ dict(head="The upside: charge for every step.", items=["**QC inspections**: bill a fee per inspection",
+                                                       "**Logistics**: quote door-to-door and add your margin",
+                                                       "**Samples & packaging**: custom boxes, labels, inserts",
+                                                       "**Repeat orders**: same factory, same margin, less work"], **{"is": 42},
+      text=["The more of the order you handle, *the more you earn.*"], fs=40,
+      scene=ground(60, 840, 260) + magnifier(170, 220, 0.6) + ship(400, 260, 0.6) + coins(620, 260, 0.6, 4) + figure(800, 260, 0.6, "up", "grin", flip=True), vh=280),
  cta("Want to learn sourcing?"),
 ]),
 # ================================================================ 9 · CLOTHING BRAND
