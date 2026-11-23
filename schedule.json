@@ -782,9 +782,10 @@
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/45-100k-sourcing/slide-06.jpg",
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/45-100k-sourcing/slide-07.jpg"
       ],
-      "status": "scheduled",
-      "media_id": null,
-      "series": "china-stories"
+      "status": "posted",
+      "media_id": "18142710364711536",
+      "series": "china-stories",
+      "posted_at": "2026-11-22T23:18:59-0500"
     },
     {
       "slot_et": "2026-11-26T11:45",
