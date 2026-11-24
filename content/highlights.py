@@ -25,6 +25,21 @@ def link_card(x, y, w=720, title="CLICK THIS LINK"):
     return b
 
 
+def pills(names, y0=0, row=112, cols=(225, 675), w=420):
+    """Two columns of rounded tags, alternating green/white."""
+    b = ""
+    for i, n in enumerate(names):
+        cx, y = cols[i % 2], y0 + (i // 2) * row
+        fill = "#2FE08A" if (i // 2 + i % 2) % 2 == 0 else "#fff"
+        b += f'<rect x="{cx-w/2}" y="{y}" width="{w}" height="88" rx="44" fill="{fill}" stroke="{INK}" stroke-width="7"/>'
+        b += _t(cx, y + 60, n, 42, 800)
+    return b
+
+
+CATS = ["Models", "Athletes", "Travel bloggers", "Fitness", "Fashion", "Beauty", "E-commerce", "Storytellers",
+        "Food & lifestyle", "Tech & gadgets", "Gaming", "Musicians", "Artists", "Photographers", "Comedians", "Family"]
+
+
 def month(x, y, s, name):
     return coins(x, y, s, 3) + lbl(x, y + 70 * s, name, INK, int(34 * s / 0.7), 800)
 
@@ -36,8 +51,7 @@ dict(id="hl-creators", title="Creators", slides=[
       kick="Chinese brands want *your content.* We get you *represented* in the Chinese market.", ks=54,
       scene=ground(40, 860, 620) + phone(170, 620, 0.95, "REC") + figure(400, 620, 1.2, "hold", "grin") + camera(600, 420, 0.8) + coins(760, 620, 0.9, 4), vh=640),
  dict(head="Who we\n*represent:*", hd=96,
-      items=["Models", "Athletes", "Travel bloggers", "Fitness", "Fashion", "Cosmetics", "E-commerce", "Storytellers"], **{"is": 70},
-      scene=ground(60, 840, 300) + camera(150, 300, 0.55) + ball(300, 300, 0.6) + plane(470, 200, 0.45) + dumbbell(640, 300, 0.6) + figure(800, 300, 0.6, "up", "grin", flip=True), vh=320),
+      scene=pills(CATS) + _t(450, 8 * 112 + 60, "+ many more", 46, 800, GREEN), vh=8 * 112 + 90, ah=1100),
  dict(head="How it *works:*", hd=96,
       items=["Go to the *link in bio*", "Fill in the *application*", "Once approved, you'll get an *email from our team* with next steps"], **{"is": 64},
       scene=link_card(450, 20), vh=440),

@@ -20,7 +20,7 @@ _slide_html = rd.slide_html
 
 def slide_html(sl):
     out = _slide_html(sl)
-    extra = "".join(f"--{k}:{sl[k]}px;" for k in ("ks", "hd") if sl.get(k))
+    extra = "".join(f"--{k}:{sl[k]}px;" for k in ("ks", "hd", "ah") if sl.get(k))
     return out.replace('<div class="s" style="', f'<div class="s" style="{extra}', 1)
 
 
