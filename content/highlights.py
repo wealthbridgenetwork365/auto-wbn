@@ -9,8 +9,24 @@ from doodle import _p, _t, INK, RED, GREEN
 from marks_story import lbl, divider, cap
 
 
+def link_card(x, y, w=720, title="CLICK THIS LINK"):
+    """Soft green card with a dashed pill slot where the Instagram link sticker goes.
+    (x, y) = top-centre of the card. Height 400."""
+    l, h = x - w / 2, 400
+    b = f'<rect x="{l+14}" y="{y+16}" width="{w}" height="{h}" rx="44" fill="{INK}"/>'                # hard shadow
+    b += f'<rect x="{l}" y="{y}" width="{w}" height="{h}" rx="44" fill="#DFF7EA" stroke="{INK}" stroke-width="9"/>'
+    b += (f'<rect x="{x-215}" y="{y+42}" width="430" height="84" rx="42" fill="#2FE08A" stroke="{INK}" stroke-width="7"/>'
+          + _t(x, y + 99, title, 44, 800))
+    b += _p(f"M{x},{y+142} L{x},{y+188} M{x-20},{y+168} L{x},{y+190} L{x+20},{y+168}", 8)                # little arrow
+    b += (f'<rect x="{l+60}" y="{y+212}" width="{w-120}" height="150" rx="75" fill="#fff" stroke="{GREEN}" '
+          f'stroke-width="7" stroke-dasharray="22 16"/>')
+    for sx, sy in ((l + 40, y + 30), (l + w - 40, y + 370)):                                             # sparkles
+        b += _p(f"M{sx},{sy-22} L{sx},{sy+22} M{sx-22},{sy} L{sx+22},{sy}", 7, color=GREEN)
+    return b
+
+
 def month(x, y, s, name):
-    return coins(x, y, s, 3) + lbl(x, y + 52 * s, name, INK, int(34 * s / 0.7), 800)
+    return coins(x, y, s, 3) + lbl(x, y + 70 * s, name, INK, int(34 * s / 0.7), 800)
 
 
 POSTS = [
@@ -23,22 +39,22 @@ dict(id="hl-creators", title="Creators", slides=[
       items=["Models", "Athletes", "Travel bloggers", "Fitness", "Fashion", "Cosmetics", "E-commerce", "Storytellers"], **{"is": 70},
       scene=ground(60, 840, 300) + camera(150, 300, 0.55) + ball(300, 300, 0.6) + plane(470, 200, 0.45) + dumbbell(640, 300, 0.6) + figure(800, 300, 0.6, "up", "grin", flip=True), vh=320),
  dict(head="How it *works:*", hd=96,
-      items=["*DM us* to apply", "Send us your *media kit*", "We match you with *Chinese brands*", "You film, post and *get paid*"], **{"is": 72},
-      scene=ground(60, 840, 420) + board(160, 420, 0.75, "KIT") + arrow(270, 270, 380, 270, -60) + handshake_hands(500, 330, 0.9) + arrow(610, 270, 700, 270, -60) + moneybag(790, 420, 0.8), vh=440),
+      items=["Go to the *link in bio*", "Fill in the *application*", "Once approved, you'll get an *email from our team* with next steps"], **{"is": 64},
+      scene=link_card(450, 20), vh=440),
 ]),
 # ================================================================ 2 · AFFILIATE
 dict(id="hl-affiliate", title="Affiliate", slides=[
  dict(tag="Affiliate program", hook="Become an\n*affiliate.*", hs=160,
-      kick="Earn *recurring money* every month from the people you sign up.", ks=58,
+      kick="Earn *recurring money* every month from the people you sign up. Plus a *discounted membership.*", ks=56,
       scene=ground(40, 860, 620) + figure(230, 620, 1.25, "point", "grin") + phone(500, 620, 1.0, "LINK") + moneybag(740, 620, 1.0), vh=640),
  dict(head="How it *works:*", hd=96,
-      items=["Get your *personal link*", "Share it with your audience", "They sign up, *you earn*", "Paid *every month* they stay", "Plus a *discounted membership*"], **{"is": 70},
+      items=["Go to the *link in bio*", "Fill in the *affiliate application*", "Once approved, you'll get an *email from our team* with next steps", "Share your link and *earn every month*"], **{"is": 64},
       scene=ground(60, 840, 360) + phone(170, 360, 0.75, "LINK") + arrow(280, 220, 380, 220, -60) + crowd(530, 360, 0.6, 4, "happy") + arrow(660, 220, 730, 220, -60) + coins(800, 360, 0.75, 4), vh=380),
- dict(hook="Share once.\n*Get paid*\n*monthly.*", hs=150,
-      scene=lbl(450, 50, "YOUR MONTHS", INK, 40)
-      + ground(40, 860, 420) + month(130, 360, 0.7, "JAN") + month(290, 360, 0.7, "FEB") + month(450, 360, 0.7, "MAR")
-      + month(610, 360, 0.7, "APR") + month(770, 360, 0.7, "MAY") + arrow(150, 150, 750, 120, -80, GREEN, 12), vh=460,
-      kick="*Tap the link in bio* to become an affiliate.", ks=60),
+ dict(hook="Share once.\n*Get paid*\n*monthly.*", hs=130,
+      scene=lbl(450, 30, "YOUR MONTHS", INK, 40) + arrow(150, 100, 750, 80, -60, GREEN, 12)
+      + ground(40, 860, 270) + month(130, 200, 0.7, "JAN") + month(290, 200, 0.7, "FEB") + month(450, 200, 0.7, "MAR")
+      + month(610, 200, 0.7, "APR") + month(770, 200, 0.7, "MAY")
+      + link_card(450, 320), vh=740),
 ]),
 # ================================================================ 3 · JOIN THE NETWORK
 dict(id="hl-network", title="Join us", slides=[
@@ -49,7 +65,7 @@ dict(id="hl-network", title="Join us", slides=[
       items=["*Brand deals*", "*Jobs* in China", "*Scholarships*", "*Manufacturing* & sourcing", "*Free mentorship*"], **{"is": 76},
       scene=ground(60, 840, 360) + phone(150, 360, 0.6, "DEAL") + board(330, 360, 0.55, "JOB") + cap(520, 330, 0.7) + factory(700, 360, 0.5), vh=380),
  dict(hook="Building\n*bridges.*\nCreating\n*access.*", hs=160,
-      kick="*Tap the link in bio* to join today.", ks=64,
-      scene=ground(60, 840, 520) + figure(230, 520, 1.15, "point", "grin") + follow_phone(600, 520, 1.1), vh=540),
+      kick="Join today. *Tap below.*", ks=64,
+      scene=link_card(450, 20), vh=440),
 ]),
 ]
