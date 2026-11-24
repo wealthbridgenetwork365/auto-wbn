@@ -14,30 +14,30 @@ FILTER = """<filter id="wob" x="-5%" y="-5%" width="110%" height="110%">
 <feDisplacementMap in="SourceGraphic" scale="6"/></filter>"""
 
 
-def leaf(d_tip, rot):
+def leaf(d_tip, rot, fill="#fff", vein=INK):
     """One frond: a filled leaf shape from the crown, rotated."""
     L = d_tip
     return (f'<g transform="rotate({rot})">'
-            f'<path d="M0,0 Q{L*0.45},{-L*0.32} {L},{-L*0.05} Q{L*0.5},{L*0.06} 0,0 Z" fill="#fff" stroke="{INK}" stroke-width="9" stroke-linejoin="round"/>'
-            f'<path d="M6,-2 Q{L*0.5},{-L*0.16} {L*0.95},{-L*0.05}" fill="none" stroke="{INK}" stroke-width="5" stroke-linecap="round"/>'
-            + "".join(f'<path d="M{L*t},{-L*0.12*(1-abs(t-0.5))} l{L*0.06},{-L*0.1}" stroke="{INK}" stroke-width="4" stroke-linecap="round"/>'
+            f'<path d="M0,0 Q{L*0.45},{-L*0.32} {L},{-L*0.05} Q{L*0.5},{L*0.06} 0,0 Z" fill="{fill}" stroke="{INK}" stroke-width="9" stroke-linejoin="round"/>'
+            f'<path d="M6,-2 Q{L*0.5},{-L*0.16} {L*0.95},{-L*0.05}" fill="none" stroke="{vein}" stroke-width="5" stroke-linecap="round"/>'
+            + "".join(f'<path d="M{L*t},{-L*0.12*(1-abs(t-0.5))} l{L*0.06},{-L*0.1}" stroke="{vein}" stroke-width="4" stroke-linecap="round"/>'
                       for t in (0.3, 0.45, 0.6, 0.75)) + "</g>")
 
 
-def palm():
+def palm(fill="#fff", island=MINT, vein=INK, waves="#111"):
     # island + trunk + crown, origin = base of trunk
-    b = f'<path d="M-230,0 Q0,-70 230,0 Z" fill="{MINT}" stroke="{INK}" stroke-width="9" stroke-linejoin="round"/>'
+    b = f'<path d="M-230,0 Q0,-70 230,0 Z" fill="{island}" stroke="{INK}" stroke-width="9" stroke-linejoin="round"/>'
     b += f'<path d="M-260,8 L260,8" stroke="{INK}" stroke-width="9" stroke-linecap="round"/>'
-    b += '<path d="M-200,40 q30,-14 60,0 t60,0 M90,44 q30,-14 60,0" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round"/>'
-    b += f'<path d="M-18,-40 Q-40,-200 40,-360 L74,-352 Q4,-200 22,-40 Z" fill="#fff" stroke="{INK}" stroke-width="9" stroke-linejoin="round"/>'
+    b += f'<path d="M-200,40 q30,-14 60,0 t60,0 M90,44 q30,-14 60,0" fill="none" stroke="{waves}" stroke-width="6" stroke-linecap="round"/>'
+    b += f'<path d="M-18,-40 Q-40,-200 40,-360 L74,-352 Q4,-200 22,-40 Z" fill="{fill}" stroke="{INK}" stroke-width="9" stroke-linejoin="round"/>'
     for i in range(1, 8):  # trunk rings
         t = i / 8
         y = -40 - 320 * t
         x = -18 + (58 * t) + (-22 * (1 - t) * t * 4)
-        b += f'<path d="M{x-2},{y} q20,-12 38,2" fill="none" stroke="{INK}" stroke-width="5" stroke-linecap="round"/>'
+        b += f'<path d="M{x-2},{y} q20,-12 38,2" fill="none" stroke="{vein}" stroke-width="5" stroke-linecap="round"/>'
     crown = '<g transform="translate(57,-360)">'
     for L, r in ((250, -170), (230, -140), (210, -100), (200, -60), (230, -25), (250, 5), (190, -205)):
-        crown += leaf(L, r)
+        crown += leaf(L, r, fill, vein)
     crown += f'<circle cx="-8" cy="14" r="20" fill="{INK}"/><circle cx="24" cy="20" r="20" fill="{INK}"/><circle cx="6" cy="40" r="18" fill="{INK}"/></g>'
     return b + crown
 
@@ -62,6 +62,24 @@ h1 span{{display:inline-block;background:#fff;border:10px solid {INK};border-rad
 <h1><span>{label}</span></h1></div></body></html>"""
 
 
+def page_sunset(label):
+    """Design 2: black background, palm silhouette against a big sun, label on a mint marker stripe."""
+    fs = 132 if len(label) <= 8 else 116
+    return f"""<!doctype html><html><head><meta charset="utf-8"><style>
+*{{margin:0;box-sizing:border-box}}
+body{{width:1080px;height:1920px;background:{INK};display:flex;align-items:center;justify-content:center}}
+.c{{width:780px;display:flex;flex-direction:column;align-items:center}}
+svg{{width:600px;height:520px;overflow:visible}}
+h1{{font-family:'Inter Display','Inter',sans-serif;font-weight:900;font-size:{fs}px;letter-spacing:-.03em;line-height:1;color:{INK};margin-top:-6px}}
+h1 span{{background:{MINT};padding:4px 22px 10px;transform:rotate(-3deg);display:inline-block}}
+</style></head><body><div class="c">
+<svg viewBox="-320 -580 640 660"><defs>{FILTER}</defs><g filter="url(#wob)">
+<circle cx="0" cy="-250" r="265" fill="#FFE27A"/>
+<circle cx="0" cy="-250" r="300" fill="none" stroke="{MINT}" stroke-width="10" stroke-dasharray="4 30" stroke-linecap="round"/>
+<g transform="translate(-40,40)">{palm(INK, INK, '#FFE27A', MINT)}</g></g></svg>
+<h1><span>{label}</span></h1></div></body></html>"""
+
+
 def main():
     out = Path(sys.argv[1] if len(sys.argv) > 1 else "stories/covers")
     out.mkdir(parents=True, exist_ok=True)
@@ -72,6 +90,9 @@ def main():
             pg.set_content(page(label))
             pg.evaluate("document.fonts.ready")
             pg.screenshot(path=str(out / f"cover-{slug}.jpg"), type="jpeg", quality=92)
+            pg.set_content(page_sunset(label))
+            pg.evaluate("document.fonts.ready")
+            pg.screenshot(path=str(out / f"cover2-{slug}.jpg"), type="jpeg", quality=92)
             print("cover", slug)
         b.close()
 
