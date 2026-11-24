@@ -8,7 +8,7 @@ from doodle import _p, _t, _c, _g, INK, RED, GREEN
 
 SIGN = "Building Bridges | Creating Access"
 TAGS = "#china #explore #chinatravel #Guangzhou"
-NOTE = "Illustrative story based on typical teaching contracts (ESL Base, Oct 2026). Pay and benefits vary by employer"
+NOTE = "Fictional example based on typical teaching contracts (ESL Base, Oct 2026). Pay and benefits vary by employer"
 
 
 # ---------------------------------------------------------------- extra doodles
@@ -107,25 +107,26 @@ def envelope_phone(x, y, s=1.0):
 
 
 def caption():
-    return ("He was saving $300 a month. Now he saves $2,000+.\n\n"
-            "Degree. Debt. 40+ hour weeks. Out of shape, paycheck to paycheck, no free time. Then an email from an agent in China: "
-            "an English teaching job at $3,500 a month with housing covered. He took the flight. Now he saves $20K+ a year, and he's still paid in the summer.\n\n"
+    return ("What if you went from saving $300 a month to $2,000+?\n\n"
+            "Picture Mark. He's a made-up example, but his situation is common: degree, debt, 40+ hour weeks, paycheck to paycheck, no free time. "
+            "Now say he takes an English teaching job in China at $3,500 a month with housing covered. With no rent to pay, he could save $2,000+ a month, "
+            "over $20K a year, and many contracts keep paying through the summer break.\n\n"
             "This is the bridge to freedom. There are tons of global opportunities that could change your life. Join our community today: link in bio.\n\n"
-            "(Not financial advice. Illustrative story based on typical teaching contracts. Pay and benefits vary by employer.)\n\n"
+            "(Not financial advice. Mark is a fictional example based on typical teaching contracts. Pay and benefits vary by employer.)\n\n"
             f"Follow @wealthbridgenetwork for more China opportunities.\n\n{SIGN}\n\n{TAGS} "
             "#teachinchina #teachabroad #expatlife #financialfreedom #debtfree #careerchange")
 
 
 POSTS = [
-dict(id="54-marks-story", pillar="Job offers", title="Mark's story: the bridge to freedom", caption=caption(),
+dict(id="54-marks-story", pillar="Job offers", title="What if you taught in China? Mark's example", caption=caption(),
  slides=[
  # 1 · HOOK: split screen then / now
- dict(hook="He saved *$300*\na month.\nNow he saves\n*$2,000+.*", hs=100, swipe=True, kick="Same guy. Different side of the bridge.",
+ dict(hook="Saving *$300*\na month?\nIt could be\n*$2,000+.*", hs=100, swipe=True, kick="Here's how that could happen.",
       scene=lbl(215, 40, "THEN", RED) + lbl(680, 40, "NOW", GREEN) + divider(450, 0, 470)
       + ground(40, 410, 470) + laptop(170, 470, 0.7) + figure(330, 470, 0.85, "down", "sad", tie=True, sweat=True) + tag(150, 280, 0.6, "$300")
       + ground(490, 880, 470) + palm(840, 470, 0.85) + lounger(640, 470, 0.85) + moneybag(560, 330, 0.6), vh=490),
  # 2 · BACKSTORY
- dict(text=["Meet Mark. He did everything *right.*", "Grew up in the West. Got the degree.", "Got the *debt*, too."], fs=56,
+ dict(text=["Picture Mark. He's not real, but *his story is common.*", "Grew up in the West. Got the degree.", "Got the *debt*, too."], fs=56,
       scene=ground(60, 840, 400) + figure(260, 400, 0.95, "up", "grin") + cap(262, 60, 0.55) + arrow(420, 220, 560, 260, -50) + bills(700, 400, 1.05), vh=420),
  # 3 · CORPORATE (split: work / home)
  dict(head="Then straight into corporate.", items=["*40+ hours* a week", "Out of shape", "Paycheck to paycheck", "*No free time*"], **{"is": 48},
@@ -133,36 +134,36 @@ dict(id="54-marks-story", pillar="Job offers", title="Mark's story: the bridge t
       + ground(40, 410, 360) + laptop(150, 360, 0.6) + clock(330, 200, 0.6) + figure(330, 360, 0.7, "phone", "sad", tie=True, sweat=True)
       + ground(490, 880, 360) + sofa(740, 360, 0.85) + figure(580, 360, 0.7, "down", "sad") + _t(760, 150, "z z z", 40, 800), vh=380),
  # 4 · THE MATH (diagram)
- dict(head="Where his paycheck went:", text=["Rent, loans, car, bills… *$300* left. Every month."], fs=48,
+ dict(head="Where his paycheck goes:", text=["Rent, loans, car, bills… *$300* left. Every month."], fs=48,
       scene=f'<rect x="60" y="40" width="780" height="80" rx="18" fill="#fff" stroke="{INK}" stroke-width="9"/>' + _t(450, 96, "PAYCHECK", 40, 800)
       + "".join(f'<rect x="{60+i*200}" y="170" width="180" height="140" rx="14" fill="#fff" stroke="{INK}" stroke-width="9"/>'
                 + _t(150 + i * 200, 252, w, 34, 800, RED) for i, w in enumerate(["RENT", "LOANS", "CAR", "BILLS"]))
       + arrow(450, 330, 450, 410, 0)
       + f'<rect x="330" y="420" width="240" height="90" rx="45" fill="#2FE08A" stroke="{INK}" stroke-width="9"/>' + _t(450, 480, "$300", 48, 800), vh=530),
  # 5 · THE EMAIL
- dict(text=["One night he searched for *something different.*", "Then an email came from an agent in China."], fs=50,
+ dict(text=["Say one night he searches for *something different.*", "An agent in China emails him a *teaching offer.*"], fs=50,
       scene=ground(60, 840, 700) + figure(170, 700, 0.95, "phone", "wow") + envelope_phone(560, 700, 1.0), vh=720),
  # 6 · THE FLIGHT
- dict(text=["He said *yes.*", "Packed two bags. Took the flight. Accepted the offer."], fs=56,
+ dict(text=["What if he says *yes?*", "Packs two bags. Takes the flight. Starts the job."], fs=56,
       scene=ground(60, 840, 400) + pin(140, 400, 0.6) + lbl(140, 440, "HOME", INK, 30)
       + _p("M140,240 Q450,-40 760,240", 8) + plane(450, 130, 0.55) + pin(760, 400, 0.6, GREEN) + lbl(760, 440, "CHINA", GREEN, 30)
       + figure(330, 400, 0.65, "wave", "grin") + box(470, 400, 0.6, "") + box(570, 400, 0.5, ""), vh=460),
  # 7 · THEN vs NOW (split screen)
- dict(head="Same Mark. New numbers.",
+ dict(head="Same Mark. What could change:",
       scene=lbl(215, 40, "THEN", RED) + lbl(680, 40, "NOW", GREEN) + divider(450, 0, 760)
       + figure(215, 330, 0.8, "down", "sad", tie=True, sweat=True)
       + lbl(215, 420, "Office job", INK, 34, 600) + lbl(215, 490, "$300/mo", RED, 64) + lbl(215, 550, "saved", INK, 30, 600)
       + lbl(215, 640, "≈ $3,600 a year", INK, 32, 700)
       + board(600, 330, 0.55, "ABC") + figure(770, 330, 0.8, "point", "grin", flip=True)
-      + lbl(680, 420, "Teaching in China", INK, 34, 600) + lbl(680, 490, "$2,000+/mo", GREEN, 64) + lbl(680, 550, "saved", INK, 30, 600)
+      + lbl(680, 420, "Teaching in China", INK, 34, 600) + lbl(680, 490, "$2,000+/mo", GREEN, 64) + lbl(680, 550, "could be saved", INK, 30, 600)
       + lbl(680, 640, "$20K+ a year", GREEN, 36, 800) + lbl(680, 700, "$3,500/mo · housing covered", INK, 26, 600), vh=760,
       src=NOTE),
  # 8 · SUMMER + CLOSE
- dict(text=["Summer break? *Still paid.* Plus a bonus. This is the *bridge to freedom.*",
+ dict(text=["Summer break? On many contracts, *still paid,* sometimes with a bonus. That's the *bridge to freedom.*",
             "This is not financial advice, but there are *tons of global opportunities* that could change your life.",
             "*Join our community today. Link in bio.*"], fs=44,
       scene=ground(60, 840, 560) + sun(110, 90, 0.7) + palm(110, 560, 0.85) + umbrella(330, 560, 0.75) + lounger(330, 560, 0.9)
       + payslip(680, 470, 0.82, rows=[("Paid holiday", "+$3,500"), ("Bonus", "Paid ✓")], total=("July", "$3,500+")) + plus(520, 150, 0.8), vh=580,
-      src="Not financial advice. Illustrative story; paid holidays and bonuses depend on the contract"),
+      src="Not financial advice. Mark is a fictional example; paid holidays and bonuses depend on the contract"),
 ]),
 ]
