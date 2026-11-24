@@ -57,7 +57,7 @@ dict(id="hl-creators", title="Creators", slides=[
       scene=ground(60, 840, 380) + phone(140, 380, 0.7, "APPLY") + check(140, 120, 0.6, True) + arrow(230, 230, 320, 230, -50)
       + board(420, 380, 0.6, "SIGN") + arrow(520, 230, 600, 230, -50) + handshake_hands(720, 300, 0.75), vh=400),
  dict(head="What are the\n*next steps?*", hd=96,
-      items=["Go to the *link in bio*", "Fill in the *application*", "Once approved, you'll get an *email from our team* with next steps"], **{"is": 64},
+      items=["Go to the *link in bio*", "Tap *Apply* and send your creator application", "Once approved, you'll get an *email from our team* with next steps"], **{"is": 64},
       scene=link_card(450, 20), vh=440),
 ]),
 # ================================================================ 2 · AFFILIATE
@@ -86,11 +86,11 @@ dict(id="hl-network", title="Join us", slides=[
       items=["*Brand deals*", "*Jobs* in China", "*Scholarships*", "*Manufacturing* & sourcing", "*Free mentorship*"], **{"is": 76},
       scene=ground(60, 840, 360) + phone(150, 360, 0.6, "DEAL") + board(330, 360, 0.55, "JOB") + cap(520, 330, 0.7) + factory(700, 360, 0.5), vh=380),
  dict(head="How it *works:*", hd=96,
-      items=["You *apply*", "You get *approved*", "You become a *member*", "We connect you with *opportunities* that fit your goals"], **{"is": 70},
-      scene=ground(60, 840, 380) + phone(140, 380, 0.7, "APPLY") + check(140, 120, 0.6, True) + arrow(230, 230, 320, 230, -50)
+      items=["You *sign up*", "You become a *member*", "You get access to *deals, jobs, scholarships* and more", "We connect you with *opportunities* that fit your goals"], **{"is": 66},
+      scene=ground(60, 840, 380) + phone(140, 380, 0.7, "JOIN") + check(140, 120, 0.6, True) + arrow(230, 230, 320, 230, -50)
       + figure(430, 380, 0.75, "up", "grin") + arrow(520, 230, 600, 230, -50) + bridge(740, 380, 0.45, 260), vh=400),
  dict(head="What are the\n*next steps?*", hd=96,
-      items=["Go to the *link in bio*", "Fill in the *application*", "Once approved, you'll get an *email from our team* with next steps"], **{"is": 64},
+      items=["Go to the *link in bio*", "Sign up and *become a member*", "You'll get a *welcome email from our team* with next steps"], **{"is": 64},
       scene=link_card(450, 20), vh=440),
 ]),
 ]
