@@ -6,7 +6,7 @@ import sys
 from pathlib import Path
 from playwright.sync_api import sync_playwright
 
-INK, GREEN, MINT = "#111", "#139A52", "#2FE08A"
+INK, GREEN, MINT, RED = "#111", "#139A52", "#2FE08A", "#E5322D"
 COVERS = [("creators", "CREATORS"), ("affiliate", "AFFILIATE"), ("network", "JOIN US")]
 
 FILTER = """<filter id="wob" x="-5%" y="-5%" width="110%" height="110%">
@@ -88,8 +88,8 @@ def palm2(trunk_fill="#fff", island=MINT, ink=INK, waves="#111"):
     return b
 
 
-def sun():
-    rays = "".join(f'<path d="M0,-78 L0,-104" transform="rotate({a})" stroke="{INK}" stroke-width="8" stroke-linecap="round"/>' for a in range(0, 360, 45))
+def sun(ray=INK):
+    rays = "".join(f'<path d="M0,-78 L0,-104" transform="rotate({a})" stroke="{ray}" stroke-width="8" stroke-linecap="round"/>' for a in range(0, 360, 45))
     return f'<circle r="60" fill="#FFE27A" stroke="{INK}" stroke-width="9"/>{rays}'
 
 
@@ -127,7 +127,8 @@ h1 span{{background:{MINT};padding:4px 22px 10px;transform:rotate(-3deg);display
 
 
 def page_white(top, bottom):
-    """Design 3: white background, two-line label: big green outlined word + black word on a mint marker."""
+    """Design 3: white background, two-line label: big green outlined word + white word on a red tag."""
+    bs = 104 if len(bottom) <= 9 else 84
     return f"""<!doctype html><html><head><meta charset="utf-8"><style>
 *{{margin:0;box-sizing:border-box}}
 body{{width:1080px;height:1920px;background:#fff;display:flex;align-items:center;justify-content:center}}
@@ -135,11 +136,11 @@ body{{width:1080px;height:1920px;background:#fff;display:flex;align-items:center
 svg{{width:470px;height:410px;overflow:visible}}
 .t{{font-family:'Inter Display','Inter',sans-serif;font-weight:900;font-size:200px;line-height:.9;letter-spacing:-.04em;color:{GREEN};
    -webkit-text-stroke:10px {INK};paint-order:stroke fill;text-shadow:10px 12px 0 {INK};margin-top:4px}}
-.b{{font-family:'Inter Display','Inter',sans-serif;font-weight:900;font-size:104px;line-height:1;letter-spacing:-.02em;color:{INK};
-   background:{MINT};padding:4px 22px 10px;transform:rotate(-3deg);margin-top:14px}}
+.b{{font-family:'Inter Display','Inter',sans-serif;font-weight:900;font-size:{bs}px;line-height:1;letter-spacing:-.02em;color:#fff;
+   background:{RED};border:8px solid {INK};border-radius:18px;padding:6px 24px 12px;transform:rotate(-3deg);margin-top:18px;box-shadow:10px 12px 0 {INK}}}
 </style></head><body><div class="c">
 <svg viewBox="-320 -580 640 660"><defs>{FILTER}</defs><g filter="url(#wob)">
-<g transform="translate(235,-500)">{sun()}</g><g transform="translate(-10,40)">{palm2()}</g></g></svg>
+<g transform="translate(235,-500)">{sun(RED)}</g><g transform="translate(-10,40)">{palm2()}</g></g></svg>
 <div class="t">{top}</div><div class="b">{bottom}</div></div></body></html>"""
 
 
@@ -157,10 +158,11 @@ def main():
             pg.evaluate("document.fonts.ready")
             pg.screenshot(path=str(out / f"cover2-{slug}.jpg"), type="jpeg", quality=92)
             print("cover", slug)
-        pg.set_content(page_white("UGC", "CREATOR"))
-        pg.evaluate("document.fonts.ready")
-        pg.screenshot(path=str(out / "cover3-ugc-creator.jpg"), type="jpeg", quality=92)
-        print("cover ugc-creator")
+        for slug, top, bottom in (("ugc-creator", "UGC", "CREATOR"), ("affiliate", "EARN", "AFFILIATE"), ("network", "JOIN", "OUR NETWORK")):
+            pg.set_content(page_white(top, bottom))
+            pg.evaluate("document.fonts.ready")
+            pg.screenshot(path=str(out / f"cover3-{slug}.jpg"), type="jpeg", quality=92)
+            print("cover3", slug)
         b.close()
 
 
