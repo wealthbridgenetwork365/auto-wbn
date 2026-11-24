@@ -64,7 +64,7 @@ dict(id="hl-affiliate", title="Affiliate", slides=[
  dict(head="How it *works:*", hd=96,
       text=["Apply via the *link in bio*. Once approved, our team *emails you* the next steps."], fs=50,
       items=["Post content about *our platform*", "Once you receive *brand deals*, recommend us to *your followers*", "Get *recurring payouts* from every sign-up",
-             "Tag us on *TikTok*", "Send us *collab invites* on Instagram: *@wealthbridgenetwork*"], **{"is": 58}),
+             "Tag us on *TikTok*", "Send us *collab invites* on Instagram: *@wealthbridgenetwork*"], **{"is": 58}, check=True),
  dict(hook="Share once.\n*Get paid*\n*monthly.*", hs=130,
       scene=lbl(450, 30, "YOUR MONTHS", INK, 40) + arrow(150, 100, 750, 80, -60, GREEN, 12)
       + ground(40, 860, 270) + month(130, 200, 0.7, "JAN") + month(290, 200, 0.7, "FEB") + month(450, 200, 0.7, "MAR")

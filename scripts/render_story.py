@@ -21,6 +21,13 @@ _slide_html = rd.slide_html
 def slide_html(sl):
     out = _slide_html(sl)
     extra = "".join(f"--{k}:{sl[k]}px;" for k in ("ks", "hd", "ah") if sl.get(k))
+    if sl.get("check"):
+        import re
+        box = ('<span class="n" style="min-width:76px"><svg viewBox="0 0 64 64" width="58" height="58" style="margin-top:4px">'
+               '<rect x="4" y="4" width="56" height="56" rx="14" fill="#2FE08A" stroke="#111" stroke-width="6"/>'
+               '<path d="M17,33 L28,44 L48,20" fill="none" stroke="#111" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>'
+               '</svg></span>')
+        out = re.sub(r'<span class="n">\d+\.</span>', box, out)
     return out.replace('<div class="s" style="', f'<div class="s" style="{extra}', 1)
 
 
