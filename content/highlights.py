@@ -62,8 +62,10 @@ dict(id="hl-affiliate", title="Affiliate", slides=[
       kick="Earn *recurring money* every month from the people you sign up. Plus a *discounted membership.*", ks=56,
       scene=ground(40, 860, 620) + figure(230, 620, 1.25, "point", "grin") + phone(500, 620, 1.0, "LINK") + moneybag(740, 620, 1.0), vh=640),
  dict(head="How it *works:*", hd=96,
-      items=["Go to the *link in bio*", "Fill in the *affiliate application*", "Once approved, you'll get an *email from our team* with next steps", "Share your link and *earn every month*"], **{"is": 64},
-      scene=ground(60, 840, 360) + phone(170, 360, 0.75, "LINK") + arrow(280, 220, 380, 220, -60) + crowd(530, 360, 0.6, 4, "happy") + arrow(660, 220, 730, 220, -60) + coins(800, 360, 0.75, 4), vh=380),
+      text=["Apply via the *link in bio*. Once approved, our team *emails you* the next steps."], fs=50,
+      items=["Post content about *our platform*", "Bring in *brands* and invite *members* to join us", "Get *recurring payouts* from every sign-up",
+             "Tag us on *TikTok*", "Send us *collab invites* on Instagram: *@wealthbridgenetwork*"], **{"is": 58},
+      scene=ground(60, 840, 240) + phone(170, 240, 0.55, "POST") + arrow(260, 140, 340, 140, -50) + crowd(470, 240, 0.5, 4, "happy") + arrow(590, 140, 660, 140, -50) + coins(760, 240, 0.6, 4), vh=260),
  dict(hook="Share once.\n*Get paid*\n*monthly.*", hs=130,
       scene=lbl(450, 30, "YOUR MONTHS", INK, 40) + arrow(150, 100, 750, 80, -60, GREEN, 12)
       + ground(40, 860, 270) + month(130, 200, 0.7, "JAN") + month(290, 200, 0.7, "FEB") + month(450, 200, 0.7, "MAR")
