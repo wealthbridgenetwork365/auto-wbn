@@ -126,6 +126,23 @@ h1 span{{background:{MINT};padding:4px 22px 10px;transform:rotate(-3deg);display
 <h1><span>{label}</span></h1></div></body></html>"""
 
 
+def page_white(top, bottom):
+    """Design 3: white background, two-line label: big green outlined word + black word on a mint marker."""
+    return f"""<!doctype html><html><head><meta charset="utf-8"><style>
+*{{margin:0;box-sizing:border-box}}
+body{{width:1080px;height:1920px;background:#fff;display:flex;align-items:center;justify-content:center}}
+.c{{width:780px;display:flex;flex-direction:column;align-items:center}}
+svg{{width:470px;height:410px;overflow:visible}}
+.t{{font-family:'Inter Display','Inter',sans-serif;font-weight:900;font-size:200px;line-height:.9;letter-spacing:-.04em;color:{GREEN};
+   -webkit-text-stroke:10px {INK};paint-order:stroke fill;text-shadow:10px 12px 0 {INK};margin-top:4px}}
+.b{{font-family:'Inter Display','Inter',sans-serif;font-weight:900;font-size:104px;line-height:1;letter-spacing:-.02em;color:{INK};
+   background:{MINT};padding:4px 22px 10px;transform:rotate(-3deg);margin-top:14px}}
+</style></head><body><div class="c">
+<svg viewBox="-320 -580 640 660"><defs>{FILTER}</defs><g filter="url(#wob)">
+<g transform="translate(235,-500)">{sun()}</g><g transform="translate(-10,40)">{palm2()}</g></g></svg>
+<div class="t">{top}</div><div class="b">{bottom}</div></div></body></html>"""
+
+
 def main():
     out = Path(sys.argv[1] if len(sys.argv) > 1 else "stories/covers")
     out.mkdir(parents=True, exist_ok=True)
@@ -140,6 +157,10 @@ def main():
             pg.evaluate("document.fonts.ready")
             pg.screenshot(path=str(out / f"cover2-{slug}.jpg"), type="jpeg", quality=92)
             print("cover", slug)
+        pg.set_content(page_white("UGC", "CREATOR"))
+        pg.evaluate("document.fonts.ready")
+        pg.screenshot(path=str(out / "cover3-ugc-creator.jpg"), type="jpeg", quality=92)
+        print("cover ugc-creator")
         b.close()
 
 
