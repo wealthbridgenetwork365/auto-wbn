@@ -53,6 +53,10 @@ dict(id="hl-creators", title="Creators", slides=[
  dict(head="Who we\n*represent:*", hd=96,
       scene=pills(CATS) + _t(450, 8 * 112 + 60, "+ many more", 46, 800, GREEN), vh=8 * 112 + 90, ah=1100),
  dict(head="How it *works:*", hd=96,
+      items=["You *apply*", "You get *approved*", "We sign a *representation contract*", "Our team finds *brands* within *your niche*"], **{"is": 70},
+      scene=ground(60, 840, 380) + phone(140, 380, 0.7, "APPLY") + check(140, 120, 0.6, True) + arrow(230, 230, 320, 230, -50)
+      + board(420, 380, 0.6, "SIGN") + arrow(520, 230, 600, 230, -50) + handshake_hands(720, 300, 0.75), vh=400),
+ dict(head="What are the\n*next steps?*", hd=96,
       items=["Go to the *link in bio*", "Fill in the *application*", "Once approved, you'll get an *email from our team* with next steps"], **{"is": 64},
       scene=link_card(450, 20), vh=440),
 ]),
