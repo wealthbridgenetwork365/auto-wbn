@@ -32,7 +32,7 @@ def pills(names, y0=0, row=112, cols=(225, 675), w=420):
         cx, y = cols[i % 2], y0 + (i // 2) * row
         fill = "#2FE08A" if (i // 2 + i % 2) % 2 == 0 else "#fff"
         b += f'<rect x="{cx-w/2}" y="{y}" width="{w}" height="88" rx="44" fill="{fill}" stroke="{INK}" stroke-width="7"/>'
-        b += _t(cx, y + 60, n, 42, 800)
+        b += _t(cx, y + 60, n, 42, 800, INK if fill != "#fff" else RED)
     return b
 
 
