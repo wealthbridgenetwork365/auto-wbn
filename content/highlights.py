@@ -65,26 +65,32 @@ dict(id="hl-affiliate", title="Affiliate", slides=[
  dict(tag="Affiliate program", hook="Become an\n*affiliate.*", hs=160,
       kick="Earn *recurring money* every month from the people you sign up. Plus a *discounted membership.*", ks=56,
       scene=ground(40, 860, 620) + figure(230, 620, 1.25, "point", "grin") + phone(500, 620, 1.0, "LINK") + moneybag(740, 620, 1.0), vh=640),
- dict(head="How it *works:*", hd=96,
-      text=["Apply via the *link in bio*. Once approved, our team *emails you* the next steps."], fs=50,
-      items=["Post content about *our platform*", "Once you receive *brand deals*, recommend us to *your followers*", "Get *recurring payouts* from every sign-up",
-             "Tag us on *TikTok*", "Send us *collab invites* on Instagram: *@wealthbridgenetwork*"], **{"is": 58}, check=True),
- dict(hook="Share once.\n*Get paid*\n*monthly.*", hs=130,
+ dict(hook="Share once.\n*Get paid*\n*monthly.*", hs=150,
       scene=lbl(450, 30, "YOUR MONTHS", INK, 40) + arrow(150, 100, 750, 80, -60, GREEN, 12)
       + ground(40, 860, 270) + month(130, 200, 0.7, "JAN") + month(290, 200, 0.7, "FEB") + month(450, 200, 0.7, "MAR")
-      + month(610, 200, 0.7, "APR") + month(770, 200, 0.7, "MAY")
-      + link_card(450, 320), vh=740),
+      + month(610, 200, 0.7, "APR") + month(770, 200, 0.7, "MAY"), vh=290,
+      kick="Every member you bring in can pay you *month after month.*", ks=58),
+ dict(head="How it *works:*", hd=96,
+      items=["Post content about *our platform*", "Once you receive *brand deals*, recommend us to *your followers*", "Get *recurring payouts* from every sign-up",
+             "Tag us on *TikTok*", "Send us *collab invites* on Instagram: *@wealthbridgenetwork*"], **{"is": 62}, check=True),
+ dict(head="What are the\n*next steps?*", hd=96,
+      items=["Go to the *link in bio*", "Fill in the *affiliate application*", "Once approved, you'll get an *email from our team* with next steps"], **{"is": 64},
+      scene=link_card(450, 20), vh=440),
 ]),
 # ================================================================ 3 · JOIN THE NETWORK
 dict(id="hl-network", title="Join us", slides=[
  dict(tag="Wealth Bridge Network", hook="Join our\n*network.*", hs=170,
-      kick="Your bridge to *China opportunities.*", ks=60,
+      kick="Your bridge to *China opportunities.* Building bridges. Creating access.", ks=60,
       scene=ground(40, 860, 560) + figure(110, 560, 1.0, "wave", "grin") + bridge(450, 560, 1.0, 520) + skyline(780, 560, 0.7), vh=600),
  dict(head="Get access *to:*", hd=96,
       items=["*Brand deals*", "*Jobs* in China", "*Scholarships*", "*Manufacturing* & sourcing", "*Free mentorship*"], **{"is": 76},
       scene=ground(60, 840, 360) + phone(150, 360, 0.6, "DEAL") + board(330, 360, 0.55, "JOB") + cap(520, 330, 0.7) + factory(700, 360, 0.5), vh=380),
- dict(hook="Building\n*bridges.*\nCreating\n*access.*", hs=160,
-      kick="Join today. *Tap below.*", ks=64,
+ dict(head="How it *works:*", hd=96,
+      items=["You *apply*", "You get *approved*", "You become a *member*", "We connect you with *opportunities* that fit your goals"], **{"is": 70},
+      scene=ground(60, 840, 380) + phone(140, 380, 0.7, "APPLY") + check(140, 120, 0.6, True) + arrow(230, 230, 320, 230, -50)
+      + figure(430, 380, 0.75, "up", "grin") + arrow(520, 230, 600, 230, -50) + bridge(740, 380, 0.45, 260), vh=400),
+ dict(head="What are the\n*next steps?*", hd=96,
+      items=["Go to the *link in bio*", "Fill in the *application*", "Once approved, you'll get an *email from our team* with next steps"], **{"is": 64},
       scene=link_card(450, 20), vh=440),
 ]),
 ]
