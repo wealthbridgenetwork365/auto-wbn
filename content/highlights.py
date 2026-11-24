@@ -63,9 +63,8 @@ dict(id="hl-affiliate", title="Affiliate", slides=[
       scene=ground(40, 860, 620) + figure(230, 620, 1.25, "point", "grin") + phone(500, 620, 1.0, "LINK") + moneybag(740, 620, 1.0), vh=640),
  dict(head="How it *works:*", hd=96,
       text=["Apply via the *link in bio*. Once approved, our team *emails you* the next steps."], fs=50,
-      items=["Post content about *our platform*", "Bring in *brands* and invite *members* to join us", "Get *recurring payouts* from every sign-up",
-             "Tag us on *TikTok*", "Send us *collab invites* on Instagram: *@wealthbridgenetwork*"], **{"is": 58},
-      scene=ground(60, 840, 240) + phone(170, 240, 0.55, "POST") + arrow(260, 140, 340, 140, -50) + crowd(470, 240, 0.5, 4, "happy") + arrow(590, 140, 660, 140, -50) + coins(760, 240, 0.6, 4), vh=260),
+      items=["Post content about *our platform*", "Once you receive *brand deals*, recommend us to *your followers*", "Get *recurring payouts* from every sign-up",
+             "Tag us on *TikTok*", "Send us *collab invites* on Instagram: *@wealthbridgenetwork*"], **{"is": 58}),
  dict(hook="Share once.\n*Get paid*\n*monthly.*", hs=130,
       scene=lbl(450, 30, "YOUR MONTHS", INK, 40) + arrow(150, 100, 750, 80, -60, GREEN, 12)
       + ground(40, 860, 270) + month(130, 200, 0.7, "JAN") + month(290, 200, 0.7, "FEB") + month(450, 200, 0.7, "MAR")
