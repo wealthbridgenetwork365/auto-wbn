@@ -144,6 +144,26 @@ svg{{width:470px;height:410px;overflow:visible}}
 <div class="t">{top}</div><div class="b">{bottom}</div></div></body></html>"""
 
 
+def page_pop(top, bottom, bg=RED):
+    """Design 4 (max contrast for the tiny highlight circle): solid colour, big mint sun, chunky black palm
+    silhouette, huge white outlined word, short black-on-mint second line."""
+    fs = 300 if len(top) <= 3 else 250
+    return f"""<!doctype html><html><head><meta charset="utf-8"><style>
+*{{margin:0;box-sizing:border-box}}
+body{{width:1080px;height:1920px;background:{bg};display:flex;align-items:center;justify-content:center}}
+.c{{position:relative;width:900px;height:900px;display:flex;flex-direction:column;align-items:center;justify-content:flex-end}}
+svg{{position:absolute;left:0;top:0;width:900px;height:900px;overflow:visible}}
+.t{{position:relative;font-family:'Inter Display','Inter',sans-serif;font-weight:900;font-size:{fs}px;line-height:.82;letter-spacing:-.05em;color:#fff;
+   -webkit-text-stroke:16px {INK};paint-order:stroke fill;text-shadow:16px 18px 0 {INK}}}
+.b{{position:relative;font-family:'Inter Display','Inter',sans-serif;font-weight:900;font-size:78px;line-height:1;letter-spacing:.02em;color:{INK};
+   background:{MINT};border:9px solid {INK};border-radius:999px;padding:8px 34px 14px;margin:26px 0 40px;box-shadow:10px 12px 0 {INK}}}
+</style></head><body><div class="c">
+<svg viewBox="-450 -760 900 900"><defs>{FILTER}</defs>
+<circle cx="0" cy="-330" r="330" fill="#FFE27A" stroke="{INK}" stroke-width="14"/>
+<g filter="url(#wob)"><g transform="translate(-25,-175) scale(1.0)">{palm(INK, INK, "#FFE27A", "#FFE27A")}</g></g></svg>
+<div class="t">{top}</div><div class="b">{bottom}</div></div></body></html>"""
+
+
 def main():
     out = Path(sys.argv[1] if len(sys.argv) > 1 else "stories/covers")
     out.mkdir(parents=True, exist_ok=True)
@@ -163,6 +183,10 @@ def main():
             pg.evaluate("document.fonts.ready")
             pg.screenshot(path=str(out / f"cover3-{slug}.jpg"), type="jpeg", quality=92)
             print("cover3", slug)
+            pg.set_content(page_pop(top, bottom))
+            pg.evaluate("document.fonts.ready")
+            pg.screenshot(path=str(out / f"cover4-{slug}.jpg"), type="jpeg", quality=92)
+            print("cover4", slug)
         b.close()
 
 
