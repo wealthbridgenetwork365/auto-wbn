@@ -110,7 +110,7 @@ def caption():
     return ("What if you went from saving $300 a month to $2,000+?\n\n"
             "Picture Mark. He's a made-up example, but his situation is common: degree, debt, 40+ hour weeks, paycheck to paycheck, no free time. "
             "Now say he takes an English teaching job in China at $3,500 a month with housing covered. With no rent to pay, he could save $2,000+ a month, "
-            "over $20K a year, and many contracts keep paying through the summer break.\n\n"
+            "over $20K a year. At his office job he'd be working all summer, saving up PTO he can't use. Teaching, many contracts keep paying through the summer break.\n\n"
             "This is the bridge to freedom. There are tons of global opportunities that could change your life. Join our community today: link in bio.\n\n"
             "(Not financial advice. Mark is a fictional example based on typical teaching contracts. Pay and benefits vary by employer.)\n\n"
             f"Follow @wealthbridgenetwork for more China opportunities.\n\n{SIGN}\n\n{TAGS} "
@@ -159,11 +159,16 @@ dict(id="54-marks-story", pillar="Job offers", title="What if you taught in Chin
       + lbl(680, 640, "$20K+ a year", GREEN, 36, 800) + lbl(680, 700, "$3,500/mo · housing covered", INK, 26, 600), vh=760,
       src=NOTE),
  # 8 · SUMMER + CLOSE
- dict(text=["Summer break? On many contracts, *still paid,* sometimes with a bonus. That's the *bridge to freedom.*",
-            "This is not financial advice, but there are *tons of global opportunities* that could change your life.",
-            "*Join our community today. Link in bio.*"], fs=44,
-      scene=ground(60, 840, 560) + sun(110, 90, 0.7) + palm(110, 560, 0.85) + umbrella(330, 560, 0.75) + lounger(330, 560, 0.9)
-      + payslip(680, 470, 0.82, rows=[("Paid holiday", "+$3,500"), ("Bonus", "Paid ✓")], total=("July", "$3,500+")) + plus(520, 150, 0.8), vh=580,
+ dict(text=["Summer at his office job? *Still working.* He can't take time off, so he keeps *saving up his PTO.*",
+            "Teaching in China, summer break is often *still paid.* That's the *bridge to freedom.*",
+            "Not financial advice, but there are *tons of global opportunities.* *Join our community today. Link in bio.*"], fs=40,
+      scene=lbl(215, 34, "OFFICE · JULY", RED, 32) + lbl(680, 34, "CHINA · JULY", GREEN, 32) + divider(450, 0, 520)
+      + f'<rect x="70" y="80" width="190" height="120" rx="16" fill="#fff" stroke="{INK}" stroke-width="8"/>'
+      + _t(165, 128, "PTO", 34, 800, RED) + _t(165, 172, "saving it up", 24, 700)
+      + sun(370, 120, 0.4) + ground(40, 410, 440) + laptop(140, 440, 0.6) + figure(320, 440, 0.75, "down", "sad", tie=True, sweat=True)
+      + lbl(215, 500, "Can't take time off", RED, 30, 700)
+      + sun(840, 120, 0.4) + ground(490, 880, 440) + umbrella(640, 440, 0.6) + lounger(660, 440, 0.62)
+      + lbl(680, 500, "Summer break: paid", GREEN, 30, 700), vh=530,
       src="Not financial advice. Mark is a fictional example; paid holidays and bonuses depend on the contract"),
 ]),
 ]
