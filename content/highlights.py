@@ -37,7 +37,7 @@ def pills(names, y0=0, row=112, cols=(225, 675), w=420):
 
 
 CATS = ["Models", "Athletes", "Travel bloggers", "Fitness", "Fashion", "Beauty", "E-commerce", "Storytellers",
-        "Food & lifestyle", "Tech & gadgets", "Gaming", "Musicians", "Artists", "Photographers", "Comedians", "Family"]
+        "Food & lifestyle", "Tech & gadgets", "Gaming", "Podcasters", "Artists", "Photographers", "Comedians", "Family"]
 
 
 def month(x, y, s, name):
