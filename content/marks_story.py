@@ -107,14 +107,7 @@ def envelope_phone(x, y, s=1.0):
 
 
 def caption():
-    return ("What if you went from saving $300 a month to $2,000+?\n\n"
-            "Picture Mark. He's a made-up example, but his situation is common: degree, debt, 40+ hour weeks, paycheck to paycheck, no free time. "
-            "Now say he takes an English teaching job in China at $3,500 a month with housing covered. With no rent to pay, he could save $2,000+ a month, "
-            "over $20K a year. At his office job he'd be working all summer, saving up PTO he can't use. Teaching, many contracts keep paying through the summer break.\n\n"
-            "This is the bridge to freedom. There are tons of global opportunities that could change your life. Join our community today: link in bio.\n\n"
-            "(Not financial advice. Mark is a fictional example based on typical teaching contracts. Pay and benefits vary by employer.)\n\n"
-            f"Follow @wealthbridgenetwork for more China opportunities.\n\n{SIGN}\n\n{TAGS} "
-            "#teachinchina #teachabroad #expatlife #financialfreedom #debtfree #careerchange")
+    return "Jobs in China 🇨🇳\n\nFollow @wealthbridgenetwork"
 
 
 POSTS = [
