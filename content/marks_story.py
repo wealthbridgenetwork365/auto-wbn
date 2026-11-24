@@ -160,8 +160,7 @@ dict(id="54-marks-story", pillar="Job offers", title="What if you taught in Chin
       src=NOTE),
  # 8 · SUMMER + CLOSE
  dict(text=["Summer at his office job? *Still working.* He can't take time off, so he keeps *saving up his PTO.*",
-            "Teaching in China, summer break is often *still paid.* That's the *bridge to freedom.*",
-            "Not financial advice, but there are *tons of global opportunities.* *Join our community today. Link in bio.*"], fs=40,
+            "Teaching in China, summer break is often *still paid.* That's the *bridge to freedom.*"], fs=44,
       scene=lbl(215, 34, "OFFICE · JULY", RED, 32) + lbl(680, 34, "CHINA · JULY", GREEN, 32) + divider(450, 0, 520)
       + f'<rect x="70" y="80" width="190" height="120" rx="16" fill="#fff" stroke="{INK}" stroke-width="8"/>'
       + _t(165, 128, "PTO", 34, 800, RED) + _t(165, 172, "saving it up", 24, 700)
@@ -170,5 +169,10 @@ dict(id="54-marks-story", pillar="Job offers", title="What if you taught in Chin
       + sun(840, 120, 0.4) + ground(490, 880, 440) + umbrella(640, 440, 0.6) + lounger(660, 440, 0.62)
       + lbl(680, 500, "Summer break: paid", GREEN, 30, 700), vh=530,
       src="Not financial advice. Mark is a fictional example; paid holidays and bonuses depend on the contract"),
+ # 9 · CTA
+ dict(hook="Ready to cross\nthe *bridge?*", hs=104,
+      kick="There are *tons of global opportunities* that could change your life. *Join our community today.* Link in bio.",
+      scene=ground(60, 840, 560) + figure(230, 560, 1.15, "point", "grin") + follow_phone(600, 560, 1.15), vh=580,
+      src="Not financial advice. Mark is a fictional example"),
 ]),
 ]
