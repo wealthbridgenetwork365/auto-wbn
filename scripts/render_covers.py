@@ -42,6 +42,52 @@ def palm(fill="#fff", island=MINT, vein=INK, waves="#111"):
     return b + crown
 
 
+def _q(p0, c, p1, t):
+    return tuple((1-t)**2*a + 2*(1-t)*t*b + t*t*d for a, b, d in zip(p0, c, p1))
+
+
+def frond2(L, tilt, side=1, ink=INK):
+    """A drooping sketch frond: one arched rib with leaflets hanging off it."""
+    p0, c, p1 = (0, 0), (L*0.55, -L*0.42), (L, L*0.28)
+    rib = f'<path d="M0,0 Q{c[0]},{c[1]} {p1[0]},{p1[1]}" fill="none" stroke="{ink}" stroke-width="10" stroke-linecap="round"/>'
+    leafs = ""
+    for i in range(3, 19):
+        t = i / 19
+        x, y = _q(p0, c, p1, t)
+        ln = 70 * (1 - t) + 22
+        leafs += f'<path d="M{x:.1f},{y:.1f} q{ln*0.15:.1f},{ln*0.5:.1f} {ln*0.05:.1f},{ln:.1f}" fill="none" stroke="{ink}" stroke-width="6" stroke-linecap="round"/>'
+        if t < 0.75:
+            leafs += f'<path d="M{x:.1f},{y:.1f} q{-ln*0.25:.1f},{-ln*0.3:.1f} {-ln*0.15:.1f},{-ln*0.7:.1f}" fill="none" stroke="{ink}" stroke-width="5" stroke-linecap="round"/>'
+    return f'<g transform="rotate({tilt}) scale({side},1)">{rib}{leafs}</g>'
+
+
+def one_palm(h, lean, ink, trunk_fill):
+    """Curved trunk of height h leaning by `lean` px, crown of drooping fronds at the top."""
+    tx, ty = lean, -h
+    b = (f'<path d="M-20,0 Q{lean*0.15-26},{-h*0.55} {tx-14},{ty} L{tx+14},{ty+4} Q{lean*0.15+18},{-h*0.55} 20,0 Z" '
+         f'fill="{trunk_fill}" stroke="{ink}" stroke-width="9" stroke-linejoin="round"/>')
+    for i in range(1, 9):
+        t = i / 9
+        x, y = _q((0, 0), (lean*0.15, -h*0.55), (tx, ty), t)
+        b += f'<path d="M{x-16:.1f},{y:.1f} l12,10 l12,-10 l8,6" fill="none" stroke="{ink}" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>'
+    crown = f'<g transform="translate({tx},{ty})">'
+    for L, tilt, side in ((230, -12, 1), (200, 22, 1), (170, -48, 1), (230, 12, -1), (200, -22, -1), (170, 48, -1)):
+        crown += frond2(L, tilt, side, ink)
+    crown += (f'<circle cx="-12" cy="16" r="17" fill="{ink}"/><circle cx="14" cy="20" r="17" fill="{ink}"/>'
+              f'<circle cx="0" cy="40" r="15" fill="{ink}"/></g>')
+    return b + crown
+
+
+def palm2(trunk_fill="#fff", island=MINT, ink=INK, waves="#111"):
+    """Two leaning sketch palms on a small island."""
+    b = f'<path d="M-250,0 Q0,-80 250,0 Z" fill="{island}" stroke="{ink}" stroke-width="9" stroke-linejoin="round"/>'
+    b += f'<path d="M-280,8 L280,8" stroke="{ink}" stroke-width="9" stroke-linecap="round"/>'
+    b += f'<path d="M-220,42 q30,-14 60,0 t60,0 M100,46 q30,-14 60,0" fill="none" stroke="{waves}" stroke-width="6" stroke-linecap="round"/>'
+    b += f'<g transform="translate(-70,-30)">{one_palm(270, -90, ink, trunk_fill)}</g>'
+    b += f'<g transform="translate(40,-40)">{one_palm(380, 70, ink, trunk_fill)}</g>'
+    return b
+
+
 def sun():
     rays = "".join(f'<path d="M0,-78 L0,-104" transform="rotate({a})" stroke="{INK}" stroke-width="8" stroke-linecap="round"/>' for a in range(0, 360, 45))
     return f'<circle r="60" fill="#FFE27A" stroke="{INK}" stroke-width="9"/>{rays}'
@@ -58,7 +104,7 @@ h1{{font-family:'Inter Display','Inter',sans-serif;font-weight:900;font-size:{fs
 h1 span{{display:inline-block;background:#fff;border:10px solid {INK};border-radius:22px;padding:10px 26px 14px;box-shadow:12px 14px 0 {INK}}}
 </style></head><body><div class="c">
 <svg viewBox="-320 -560 640 640"><defs>{FILTER}</defs><g filter="url(#wob)">
-<g transform="translate(235,-500)">{sun()}</g><g transform="translate(-30,40)">{palm()}</g></g></svg>
+<g transform="translate(235,-500)">{sun()}</g><g transform="translate(-10,40)">{palm2()}</g></g></svg>
 <h1><span>{label}</span></h1></div></body></html>"""
 
 
@@ -76,7 +122,7 @@ h1 span{{background:{MINT};padding:4px 22px 10px;transform:rotate(-3deg);display
 <svg viewBox="-320 -580 640 660"><defs>{FILTER}</defs><g filter="url(#wob)">
 <circle cx="0" cy="-250" r="265" fill="#FFE27A"/>
 <circle cx="0" cy="-250" r="300" fill="none" stroke="{MINT}" stroke-width="10" stroke-dasharray="4 30" stroke-linecap="round"/>
-<g transform="translate(-40,40)">{palm(INK, INK, '#FFE27A', MINT)}</g></g></svg>
+<g transform="translate(15,40) scale(.82)">{palm2(INK, INK, INK, MINT)}</g></g></svg>
 <h1><span>{label}</span></h1></div></body></html>"""
 
 
