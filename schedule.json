@@ -800,9 +800,10 @@
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/46-clothing-brand/slide-04.jpg",
         "https://raw.githubusercontent.com/wealthbridgenetwork365/auto-wbn/main/posts/46-clothing-brand/slide-05.jpg"
       ],
-      "status": "scheduled",
-      "media_id": null,
-      "series": "china-stories"
+      "status": "posted",
+      "media_id": "18121832816078345",
+      "series": "china-stories",
+      "posted_at": "2026-11-26T11:47:35-0500"
     },
     {
       "slot_et": "2026-11-27T11:45",
