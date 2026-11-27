@@ -122,7 +122,7 @@ def s_tier(s, i, n):
     th = s["theme"]
     chk = THEMES[th]["chki"]
     items = "".join(f'<div class="it"><div class="ck">{CHECK.format(c=chk)}</div><div>{md(x).replace("[v]", VERIFIED)}</div></div>' for x in s["items"])
-    inner = (badge(th, s["letter"])
+    inner = ((badge(th, s["letter"]) if s.get("badge") else "")
              + f'<div class="big name grad" style="font-size:{s.get("size", 250)}px">{s["name"]}</div>'
              f'<div class="mem">Membership</div>'
              f'<div class="kick">{md(s["kicker"])}</div>'
