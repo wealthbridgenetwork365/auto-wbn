@@ -11,7 +11,7 @@ LINK = "Join at the *link in bio.*"
 POSTS = [
 dict(id="m1-memberships", pillar="Membership", title="Join our network",
  caption=caption("Join the Wealth Bridge Network: Free, Silver and Gold.",
-                 "Free: create an account, browse and get the newsletter. Silver: apartment listings, brand deals, jobs and universities, and member-only webinars, plus a verified badge. Gold: everything in Silver plus A.I. tools, early access to ALL opportunities and vetted manufacturers. Go to the link in bio to join.",
+                 "Free: create an account, browse and get the newsletter. Silver: apartment listings, brand deals, jobs and universities, and member-only webinars, plus access to apply for the verified badge. Gold: everything in Silver plus A.I. tools, early access to ALL opportunities and vetted manufacturers. Go to the link in bio to join.",
                  "#ugccreator #branddeals #creatoreconomy #membership"),
  slides=[
  dict(type="cover", title=["Join", "our", "*network.*"], size=184,
@@ -21,7 +21,7 @@ dict(id="m1-memberships", pillar="Membership", title="Join our network",
       items=["Create your account", "Browse the network", "Access to the newsletter", "Limited features"], **{"is": 50, "gap": 30}),
  dict(type="tier", theme="silver", name="Silver", letter="S", kicker=LINK, size=236,
       items=["Apartments + maid, chef & nanny", "Weekly newsletter & updates", "Brand deals, jobs & universities",
-             "Member-only webinars", "Verified badge [v]", "Silver symbol on your profile"], **{"is": 40, "gap": 24}),
+             "Member-only webinars", "Apply for the verified badge [v]", "Silver symbol on your profile"], **{"is": 40, "gap": 24}),
  dict(type="tier", theme="gold", name="Gold", letter="G", kicker=LINK,
       items=["Everything in Silver", "*A.I. tools*", "Early access to ALL opportunities", "First in line for brand deals & jobs",
              "Vetted manufacturers", "Priority support & events", "Verified badge [v]", "Gold symbol on your profile"], **{"is": 34, "gap": 12}),
