@@ -49,7 +49,7 @@ body{width:1080px;height:1350px;font-family:'Poppins',sans-serif}
 .name{font-size:250px;margin-top:70px}
 .mem{font-family:'Inter Display';font-weight:900;font-size:92px;letter-spacing:-.03em;line-height:1;text-transform:uppercase;margin-top:14px}
 .kick{font-size:34px;font-weight:600;color:var(--muted);margin-top:26px}
-.card{margin-top:44px;background:var(--card);border:2px solid var(--line);border-radius:44px;padding:40px 44px;display:flex;flex-direction:column;gap:24px;backdrop-filter:blur(2px)}
+.card{margin-top:34px;margin-bottom:24px;background:var(--card);border:2px solid var(--line);border-radius:44px;padding:40px 44px;display:flex;flex-direction:column;gap:24px;backdrop-filter:blur(2px)}
 .it{display:flex;align-items:center;gap:26px;font-size:var(--is,38px);font-weight:600;line-height:1.2}
 .ck{flex:none;width:52px;height:52px;border-radius:50%;background:var(--chk);display:flex;align-items:center;justify-content:center}
 .it em{font-style:normal;background:var(--acc);-webkit-background-clip:text;background-clip:text;color:transparent;font-weight:800}
@@ -113,10 +113,15 @@ def s_cover(s, i, n):
     return frame("black", inner, i, n, s.get("label", "Wealth Bridge Network"), "Swipe")
 
 
+VERIFIED = ('<svg width="44" height="44" viewBox="0 0 24 24" style="vertical-align:-9px;margin-left:10px">'
+            '<path fill="#1D9BF0" d="M12 1.5l2.4 1.8 3-.2 1 2.8 2.6 1.6-.7 2.9 1.3 2.7-2.1 2.1-.2 3-2.9.6-1.6 2.5-2.8-.9-2.8.9-1.6-2.5-2.9-.6-.2-3L1.6 13l1.3-2.7-.7-2.9 2.6-1.6 1-2.8 3 .2z"/>'
+            '<path d="M7.6 12.3l3 3 5.8-6" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>')
+
+
 def s_tier(s, i, n):
     th = s["theme"]
     chk = THEMES[th]["chki"]
-    items = "".join(f'<div class="it"><div class="ck">{CHECK.format(c=chk)}</div><div>{md(x)}</div></div>' for x in s["items"])
+    items = "".join(f'<div class="it"><div class="ck">{CHECK.format(c=chk)}</div><div>{md(x).replace("[v]", VERIFIED)}</div></div>' for x in s["items"])
     inner = (badge(th, s["letter"])
              + f'<div class="big name grad" style="font-size:{s.get("size", 250)}px">{s["name"]}</div>'
              f'<div class="mem">Membership</div>'
