@@ -1,5 +1,5 @@
 # Membership carousel (Free, Silver, Gold, Green) in the doodle storytelling format.
-# Split-screen slides compare two tiers side by side. Prices/perks from admin.wbn.world/membership (Nov 27, 2026).
+# List-slide format (big numbered list + bold icon row), one tier per slide. Prices/perks from admin.wbn.world/membership (Nov 27, 2026).
 # Render: python3 scripts/render_doodle.py content/membership.py $PWD/posts/
 import sys
 from pathlib import Path
@@ -36,6 +36,13 @@ def split(left, right, vh=800):
             + _p(f"M450,0 L450,{vh-20}", 7, color="#BBBBBB"))
 
 
+def icons(*parts):
+    """Row of bold doodle icons under the list (Hormozi-style list slide)."""
+    return ground(40, 860, 250) + "".join(parts)
+
+
+TIER = dict(hd=84, fs=58, **{"is": 54}, ah=330)
+
 POSTS = [
 dict(id="m1-memberships", pillar="Membership", title="Which membership is right for you?",
  caption=caption("Free, Silver, Gold or Green: which Wealth Bridge membership is right for you?",
@@ -46,18 +53,26 @@ dict(id="m1-memberships", pillar="Membership", title="Which membership is right 
       scene=ground(40, 860, 440) + _p("M50,440 L50,380 L210,380 L210,300 L370,300 L370,220 L530,220 L530,140 L690,140 L690,440", 9)
       + _t(130, 360, "FREE", 38, 900) + _t(290, 280, "SILVER", 38, 900) + _t(450, 200, "GOLD", 38, 900) + _t(610, 120, "GREEN", 38, 900, G)
       + figure(790, 440, 0.85, "up", "grin", flip=True), vh=460),
- dict(head="Free *vs* Silver", hd=80,
-      scene=split(dict(name="Free", price="$0", fill=MINT, perks=["Free account", "Follow weekly\nChina tips", "Upgrade\nany time"]),
-                  dict(name="Silver", price="$12.99/mo", old="$25", perks=["Apartment listings\n(maid, chef & nanny)", "Weekly newsletter\n& industry updates",
-                       "Access to selected\nopportunities", "Member-only\nweekly webinars", "Silver badge\non your profile"])), vh=800),
- dict(head="Gold *vs* Green", hd=80,
-      scene=split(dict(name="Gold", price="$34.99/mo", old="$45", perks=["Everything in Silver", "Early access to\nALL opportunities",
-                       "First in line for\nbrand deals & jobs", "Vetted\nmanufacturers", "Priority support\n& exclusive events",
-                       "Gold badge\non your profile"]),
-                  dict(name="Green", price="FREE", fill=MINT, perks=["For companies", "Apply under\nCompanies", "Approved companies\nget the green badge"]), vh=800), vh=800),
- dict(head="How to join:", items=["Tap the *link in bio*", "Sign up *free*", "Upgrade to *Silver* or *Gold* any time", "Companies: apply for *Green*"], **{"is": 50},
-      scene=ground(60, 840, 360) + phone(200, 360, 0.8, "JOIN") + arrow(310, 220, 420, 220, -60) + check(540, 200, 1.1, True)
-      + figure(740, 360, 0.85, "up", "grin", flip=True), vh=380),
+ dict(head="Free ($0):", text=["Every free member gets:"],
+      items=["A free account", "Weekly China tips", "Upgrade any time"],
+      scene=icons(phone(170, 250, 0.75, "WBN"), board(450, 250, 0.6, "TIPS"), check(720, 230, 1.1, True)), vh=260, **TIER),
+ dict(head="Silver ($12.99/mo):", text=["Normally $25. Members get:"],
+      items=["Apartment listings + maid, chef & nanny", "Weekly newsletter & updates", "Selected opportunities",
+             "Member-only webinars", "Silver symbol on your profile"],
+      scene=icons(door(130, 250, 0.6), board(330, 250, 0.55, "NEWS"), magnifier(520, 250, 0.8), laptop(700, 250, 0.55, "LIVE"), tag(840, 250, 0.6, "S")), vh=260,
+      **{**TIER, "is": 50, "fs": 54, "hd": 80}),
+ dict(head="Gold ($34.99/mo):", text=["Normally $45. Members get:"],
+      items=["Everything in Silver", "Early access to ALL opportunities", "First in line for brand deals & jobs",
+             "Vetted manufacturers", "Priority support & events", "Gold symbol on your profile"],
+      scene=icons(handshake_hands(160, 200, 0.6), factory(400, 250, 0.45), trophy(620, 250, 0.7), tag(800, 250, 0.6, "G")), vh=260,
+      **{**TIER, "is": 48, "fs": 54, "hd": 80}),
+ dict(head="Green (companies):", text=["Free. Approved companies get:"],
+      items=["Their own application track", "The green symbol", "A green badge on our marketing"],
+      scene=icons(factory(180, 250, 0.5), board(450, 250, 0.6, "APPLY"), check(640, 230, 1.0, True), tag(800, 250, 0.65, "G")), vh=260,
+      **TIER),
+ dict(head="How to join:", hd=84,
+      items=["Tap the *link in bio*", "Sign up *free*", "Upgrade to *Silver* or *Gold*", "Companies: apply for *Green*"], **{"is": 58},
+      scene=icons(phone(170, 250, 0.75, "JOIN"), arrow(280, 150, 400, 150, -50), check(500, 230, 1.0, True), figure(740, 250, 0.6, "up", "grin", flip=True)), vh=260, ah=330),
  cta("Ready to cross the bridge?"),
 ]),
 ]

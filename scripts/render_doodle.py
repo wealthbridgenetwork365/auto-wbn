@@ -27,7 +27,7 @@ body{{width:{W}px;height:{H}px;background:#fff;font-family:'Poppins',sans-serif;
 .kick em{{font-style:normal;color:{ACC}}}
 .swipe{{position:absolute;right:96px;bottom:150px;font-family:'Inter Display';font-weight:900;font-size:30px;letter-spacing:.12em;color:#111}}
 .tag{{font-size:22px;font-weight:700;letter-spacing:.32em;color:{ACC};text-transform:uppercase;margin-bottom:26px}}
-.head{{font-size:60px;font-weight:700;line-height:1.14;color:{ACC};letter-spacing:-.01em;margin-bottom:30px}}
+.head{{font-size:var(--hd,60px);font-weight:700;line-height:1.14;color:{ACC};letter-spacing:-.01em;margin-bottom:30px}}
 .p{{font-size:var(--fs,56px);font-weight:600;line-height:1.2;letter-spacing:-.012em;margin-bottom:34px}}
 .p em,.head em,.it em{{font-style:normal;color:{ACC}}}
 ol{{list-style:none;padding:0;margin:0 0 10px}}
@@ -92,6 +92,8 @@ def slide_html(sl):
         style += f"--fs:{sl['fs']}px;"
     if sl.get("is"):
         style += f"--is:{sl['is']}px;"
+    if sl.get("hd"):
+        style += f"--hd:{sl['hd']}px;"
     if sl.get("hs"):
         style += f"--hs:{sl['hs']}px;"
     swipe = '<div class="swipe">SWIPE &rarr;</div>' if sl.get("swipe") else ""
