@@ -92,6 +92,8 @@ def slide_html(sl):
         style += f"--fs:{sl['fs']}px;"
     if sl.get("is"):
         style += f"--is:{sl['is']}px;"
+    if sl.get("ah"):
+        style += f"--ah:{sl['ah']}px;"
     if sl.get("hd"):
         style += f"--hd:{sl['hd']}px;"
     if sl.get("hs"):
