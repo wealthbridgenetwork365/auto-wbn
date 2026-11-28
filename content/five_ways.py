@@ -35,13 +35,13 @@ def topic(n, name, cells, src=""):
 
 
 POSTS = [
-dict(id="48-five-ways", pillar="Opportunities", title="5 ways to benefit from China",
+dict(id="48-five-ways", pillar="Opportunities", title="4 ways to benefit from China",
  caption="Building Bridges | Creating Access",
  slides=[
- dict(hook="5 ways to\n*benefit*\nfrom China.", hs=150, swipe=True,
-      kick="Jobs, sourcing, brand deals, language programs and investing.",
-      scene=ground(40, 860, 300) + board(110, 300, 0.45, "JOBS") + factory(270, 300, 0.4) + phone(430, 300, 0.55, "DEAL")
-      + board(590, 300, 0.45, "中文") + coins(760, 300, 0.7, 4), vh=320),
+ dict(hook="4 ways to\n*benefit*\nfrom China.", hs=150, swipe=True,
+      kick="Jobs, sourcing, brand deals and language programs.",
+      scene=ground(40, 860, 300) + board(150, 300, 0.45, "JOBS") + factory(360, 300, 0.4) + phone(560, 300, 0.55, "DEAL")
+      + board(750, 300, 0.45, "中文"), vh=320),
  topic(1, "Jobs", [
    (lambda x, y: board(x, y, 0.5, "TEFL"), "Teaching", ["Up to 35K+ RMB/mo", "at top int'l schools"]),
    (lambda x, y: laptop(x, y, 0.55, "SALES"), "Trade & marketing", ["Foreign trade sales,", "e-commerce, ads"]),
@@ -66,12 +66,6 @@ dict(id="48-five-ways", pillar="Opportunities", title="5 ways to benefit from Ch
    (lambda x, y: coins(x, y, 0.8, 4), "Stipend", ["2,500-3,000", "RMB a month"]),
    (lambda x, y: phone(x, y, 0.55, "APPLY"), "Apply", ["Usually Jan-Apr", "via an institute"]),
  ], CSC),
- topic(5, "Investing", [
-   (lambda x, y: laptop(x, y, 0.55, "HK"), "Stock Connect", ["Buy mainland shares", "through HK brokers"]),
-   (lambda x, y: phone(x, y, 0.55, "ETF"), "China ETFs", ["Simplest start, from", "your home broker"]),
-   (lambda x, y: factory(x, y, 0.45), "Start a company", ["A WFOE lets you own", "100% of a China firm"]),
-   (lambda x, y: tower(x, y, 0.36), "Property", ["Usually needs 1+ year", "living in China"]),
- ], INV),
  cta("Which one is for you?"),
 ]),
 ]
