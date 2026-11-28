@@ -26,3 +26,4 @@
 | 2026-11-23 | Mon 2026-11-23 20:41 (posted on user request) | Job offers | Carousel | Mark's what-if: the bridge to freedom | 18039542747851044 |
 | 2026-11-26 | Thu 2026-11-26 11:45 | Sourcing | Carousel | Starting a clothing brand? Pick the right city | 18121832816078345 |
 | 2026-11-27 | Fri 2026-11-27 09:58 (posted on user request) | Membership | Carousel | Join our network (Free, Silver, Gold) | 18115934951235237 |
+| 2026-11-28 | Sat 2026-11-28 11:23 (posted on user request) | Opportunities | Carousel | 4 ways to benefit from China | 18453780082126087 |
