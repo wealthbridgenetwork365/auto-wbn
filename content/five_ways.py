@@ -49,7 +49,7 @@ dict(id="48-five-ways", pillar="Opportunities", title="4 ways to benefit from Ch
    (lambda x, y: skyline(x, y, 0.38), "Top cities", ["Shanghai, Shenzhen,", "Guangzhou, Chengdu"]),
  ], TEACH),
  topic(2, "Sourcing", [
-   (lambda x, y: factory(x, y, 0.45), "Where to find", ["Most common: 1688,", "Alibaba, Canton Fair"]),
+   (lambda x, y: factory(x, y, 0.45), "Where to find", ["Most common: 1688", "& Alibaba (online)", "In person: Canton Fair"]),
    (lambda x, y: handshake_hands(x, y - 50, 0.75), "Meet in person", ["Build relationships", "and meet the direct", "manufacturer"]),
    (lambda x, y: box(x, y, 0.65), "Sample first", ["Approve a sample", "before bulk orders"]),
    (lambda x, y: coins(x, y, 0.8, 3), "Pay smart", ["Deposit first, balance", "after inspection"]),
