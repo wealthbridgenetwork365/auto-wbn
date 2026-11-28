@@ -66,6 +66,8 @@ dict(id="48-five-ways", pillar="Opportunities", title="4 ways to benefit from Ch
    (lambda x, y: coins(x, y, 0.8, 4), "Stipend", ["2,500-3,000", "RMB a month"]),
    (lambda x, y: phone(x, y, 0.55, "APPLY"), "Apply", ["Usually Jan-Apr", "via an institute"]),
  ], CSC),
- cta("Which one is for you?"),
+ dict(hook="Join our\n*network.*", hs=170,
+      kick="Tap the *link in bio* to join.",
+      scene=ground(60, 840, 560) + figure(230, 560, 1.15, "point", "grin") + phone(600, 560, 1.4, "JOIN"), vh=580),
 ]),
 ]
