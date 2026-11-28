@@ -13,6 +13,12 @@ CSC = "Source: CSC & Confucius Institute scholarship pages; check the official s
 INV = "Not financial advice. Rules vary by city and change; check with a licensed adviser"
 
 
+def best_pill(cx, y):
+    """Mint 'BEST OPTION' pill. (cx, y) = top-centre."""
+    return (f'<rect x="{cx-140}" y="{y}" width="280" height="66" rx="33" fill="#2FE08A" stroke="{INK}" stroke-width="6"/>'
+            + _t(cx, y + 46, "BEST OPTION", 34, 900))
+
+
 def cell(cx, y0, icon, title, lines):
     b = icon
     b += _t(cx, y0 + 250, title, 44, 800, G)
@@ -50,7 +56,7 @@ dict(id="48-five-ways", pillar="Opportunities", title="4 ways to benefit from Ch
  ], TEACH),
  topic(2, "Sourcing", [
    (lambda x, y: factory(x, y, 0.45), "Where to find", ["Most common: 1688", "& Alibaba (online)", "In person: Canton Fair"]),
-   (lambda x, y: handshake_hands(x, y - 50, 0.75), "Meet in person", ["Build relationships", "and meet the direct", "manufacturer"]),
+   (lambda x, y: best_pill(x, y - 175) + handshake_hands(x, y - 30, 0.7), "Meet in person", ["Build relationships", "and meet the direct", "manufacturer"]),
    (lambda x, y: box(x, y, 0.65), "Sample first", ["Approve a sample", "before bulk orders"]),
    (lambda x, y: coins(x, y, 0.8, 3), "Pay smart", ["Deposit first, balance", "after inspection"]),
  ]),
